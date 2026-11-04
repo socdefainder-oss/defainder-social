@@ -1,0 +1,14 @@
+Boleto falso enviado "pela sua empresa": o cliente paga, o dinheiro some e a culpa cai em você. 💸
+
+Golpistas falsificam o seu e-mail quando o domínio da empresa não está protegido. O cliente recebe uma cobrança idêntica à sua, com o seu logo e o seu nome.
+
+3 registros resolvem isso:
+✅ SPF: diz quem pode enviar e-mail pelo seu domínio
+✅ DKIM: assina cada mensagem
+✅ DMARC: manda bloquear o que for falso
+
+Não sabe se a sua empresa tem? Faça o diagnóstico GRATUITO e descubra em minutos. 👉 Link na bio
+
+💾 Salve e mande para quem cuida da TI ou do financeiro.
+
+#boletofalso #phishing #ciberseguranca #empresas #defainder

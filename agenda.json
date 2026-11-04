@@ -1,0 +1,8 @@
+[
+  {"id": "2026-11-05_08_reel_voz-clonada", "quando": "2026-11-05 08:00", "tipo": "reel", "origem": ["Dia 05.11/12h_Voz_Clonada.mp4"], "legenda": "legendas/2026-11-05_08_reel_voz-clonada.txt", "capa_ms": 1500, "comentario": "Já combinou a palavra-código com a sua família? 🔑"},
+  {"id": "2026-11-05_12_reel_email-boleto-falso", "quando": "2026-11-05 12:00", "tipo": "reel", "origem": ["Dia 05.11/18h_Email_Boleto_Falso.mp4"], "legenda": "legendas/2026-11-05_12_reel_email-boleto-falso.txt", "capa_ms": 1500, "comentario": "Teste o e-mail da sua empresa de graça pelo link da bio. 👆"},
+  {"id": "2026-11-05_18_reel_chatgpt-vazamento", "quando": "2026-11-05 18:00", "tipo": "reel", "origem": ["Dia 05.11/21h_ChatGPT_Vazamento.mp4"], "legenda": "legendas/2026-11-05_18_reel_chatgpt-vazamento.txt", "capa_ms": 1500, "comentario": "Sua equipe tem regras para usar IA? Comente SIM ou NÃO."},
+  {"id": "2026-11-06_08_reel_golpe-maquininha", "quando": "2026-11-06 08:00", "tipo": "reel", "origem": ["Dia 06.11/12h_Golpe_Maquininha.mp4"], "legenda": "legendas/2026-11-06_08_reel_golpe-maquininha.txt", "capa_ms": 1500, "comentario": "Salve para conferir na próxima entrega. 💳"},
+  {"id": "2026-11-06_12_reel_ceo-deepfake", "quando": "2026-11-06 12:00", "tipo": "reel", "origem": ["Dia 06.11/18h_CEO_Deepfake.mp4"], "legenda": "legendas/2026-11-06_12_reel_ceo-deepfake.txt", "capa_ms": 1500, "comentario": "Sua empresa confirma transferências por um segundo canal?"},
+  {"id": "2026-11-06_18_reel_automacao-ia", "quando": "2026-11-06 18:00", "tipo": "reel", "origem": ["Dia 06.11/21h_Automacao_IA.mp4"], "legenda": "legendas/2026-11-06_18_reel_automacao-ia.txt", "capa_ms": 1500, "comentario": "Qual tarefa você automatizaria primeiro? 👇"}
+]
