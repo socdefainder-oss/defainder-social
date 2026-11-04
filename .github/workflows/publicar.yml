@@ -1,9 +1,9 @@
 name: Publicar no Instagram
 
-# Horarios em UTC (Brasilia = UTC-3): Reels 08h, 12h, 18h · Posts 09h, 13h, 20h
+# Roda de hora em hora das 08h as 21h (Brasilia = UTC-3) e publica o que venceu na agenda.json
 on:
   schedule:
-    - cron: "2 11,12,15,16,21,23 * * *"
+    - cron: "2 0,11-23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -17,8 +17,8 @@ jobs:
   publicar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Publicar o que venceu

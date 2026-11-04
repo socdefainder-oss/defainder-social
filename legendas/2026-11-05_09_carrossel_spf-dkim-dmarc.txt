@@ -1,0 +1,14 @@
+Qualquer pessoa pode enviar um e-mail "em nome da sua empresa". A não ser que o seu domínio esteja protegido. 📧
+
+SPF, DKIM e DMARC explicados em 1 minuto:
+✅ SPF: a lista de quem pode enviar pelo seu domínio
+✅ DKIM: a assinatura digital que prova que a mensagem é sua
+✅ DMARC: a regra que manda bloquear o e-mail falso
+
+Sem os três, golpistas mandam boletos falsos aos seus clientes usando o seu nome.
+
+Descubra em minutos se o e-mail da sua empresa pode ser falsificado. Diagnóstico gratuito 👉 link na bio
+
+💾 Salve este post e envie para quem cuida da TI.
+
+#ciberseguranca #seguranca #phishing #empresas #defainder

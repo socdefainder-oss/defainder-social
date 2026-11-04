@@ -1,0 +1,17 @@
+Um clique em um anexo e, na manhã seguinte, nenhum arquivo da empresa abre. 🔒
+
+É assim que o ransomware funciona: sequestra os dados, para a operação e cobra um resgate para devolver o que é seu.
+
+Como reduzir o risco:
+✅ Backup isolado da rede e testado todo mês
+✅ Autenticação em dois fatores em todos os acessos
+✅ Sistemas e antivírus sempre atualizados
+✅ Monitoramento 24/7 para agir antes do estrago
+
+A defAInder monitora e responde a ameaças com o Easy-SOC, um time de segurança por assinatura.
+
+Faça o diagnóstico gratuito da sua empresa 👉 link na bio
+
+💾 Salve e mande para o responsável pela TI.
+
+#ransomware #ciberseguranca #segurancadainformacao #empresas #defainder
