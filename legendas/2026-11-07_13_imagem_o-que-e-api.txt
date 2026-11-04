@@ -1,0 +1,21 @@
+O que é API? Explicado com um garçom 🍽️
+
+No restaurante funciona assim:
+1️⃣ Você (o app) faz o pedido
+2️⃣ O garçom (a API) leva o pedido até a cozinha
+3️⃣ A cozinha (o sistema) prepara
+4️⃣ O garçom traz o prato: a informação que você pediu
+
+Você usa API todo dia sem perceber:
+🔑 Entrar em um site com a sua conta Google
+🚚 Calcular o frete antes de comprar
+💸 Pagar com Pix dentro do app da loja
+
+É por API que a defAInder conecta sistemas e automatiza processos nas empresas: menos digitação manual, mais tempo para o que importa.
+
+👉 Quer integrar os sistemas da sua empresa? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve e mande para quem sempre pergunta o que é API.
+
+#tecnologia #aprendatecnologia #dicasdetecnologia #curiosidades #defainder
