@@ -1,0 +1,17 @@
+Wi-Fi da empresa: a senha está colada na parede da recepção. E o servidor está na mesma rede. 📶
+
+Um visitante conecta o celular e fica na mesma rede dos computadores, da impressora e do sistema. Se o aparelho dele estiver infectado, o caminho até o servidor está aberto.
+
+Como proteger a rede da sua empresa:
+1️⃣ Rede separada só para visitantes
+2️⃣ Senha dos visitantes trocada de tempos em tempos (e a da rede interna nunca na parede)
+3️⃣ Roteador atualizado e senha de administrador trocada, nada de senha de fábrica
+4️⃣ Computadores, impressora e sistema numa rede própria, longe dos visitantes
+
+🛡️ A defAInder analisa a rede da sua empresa e aponta o que precisa ser corrigido.
+👉 Diagnóstico gratuito: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e envie para quem cuida do Wi-Fi da sua empresa.
+
+#cibersegurança #segurancadainformacao #segurancadigital #empresas #defainder

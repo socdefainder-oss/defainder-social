@@ -1,0 +1,20 @@
+Phishing na empresa: quantos da sua equipe clicariam num e-mail falso de "atualize sua senha"? 🎣
+
+Parece do suporte, tem logotipo, prazo e botão. Basta uma pessoa clicar e digitar a senha numa página falsa.
+
+Como descobrir e proteger a equipe:
+1️⃣ Simulação de phishing controlada, com resultado por equipe, sem expor ninguém
+2️⃣ Quem clicou não leva bronca: faz um treinamento curto
+3️⃣ Botão ou canal para reportar e-mail suspeito, e agradeça quem avisou
+4️⃣ Verificação em duas etapas (MFA): só a senha não basta
+
+(Cena simulada, empresa fictícia, números de exemplo.)
+
+🛡️ A defAInder ajuda empresas a treinar a equipe e fechar as portas que o golpista usa.
+
+👉 Quer testar a sua equipe com segurança? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e compartilhe com quem cuida da TI ou do RH da empresa.
+
+#phishing #cibersegurança #segurancadainformacao #empresas #defainder

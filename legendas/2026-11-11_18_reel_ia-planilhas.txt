@@ -1,0 +1,19 @@
+Fórmula de planilha com IA: descreva em português e receba a fórmula pronta. 📊
+
+Como fazer:
+1️⃣ Abra um assistente de IA e escreva o que você quer:
+"Some as vendas de março da coluna C quando a coluna B for Pago (a coluna A tem o mês)."
+2️⃣ A IA devolve a fórmula:
+=SOMASES(C:C;A:A;"março";B:B;"Pago")
+3️⃣ Não entendeu? Peça: "Explique essa fórmula parte por parte."
+4️⃣ Vá além: peça o passo a passo de uma tabela dinâmica ou de um gráfico.
+
+⚠️ Cuidado: não cole planilhas com dados de clientes. Mande só os nomes das colunas.
+
+🤖 A defAInder ajuda pessoas e empresas a usar IA no dia a dia com produtividade e segurança.
+👉 Mais dicas: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve para usar na próxima planilha e comente FÓRMULA se funcionou!
+
+#inteligenciaartificial #dicasdeia #produtividade #tecnologia #defainder

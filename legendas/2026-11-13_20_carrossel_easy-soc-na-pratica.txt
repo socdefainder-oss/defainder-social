@@ -1,0 +1,16 @@
+SOC na prática: o que acontece com um alerta de segurança, do início ao fim. 🚨🛡️
+
+Um cenário ilustrativo no Easy-SOC da defAInder:
+🔎 Detecção: senha errada, login de um local incomum e uma regra nova encaminhando e-mails para fora. Juntos, os eventos acendem o alerta.
+🧠 Análise: de onde veio o acesso? É o hábito dessa pessoa? O que foi feito depois? Outras contas foram afetadas?
+🔒 Contenção: sessão encerrada, senha trocada com verificação em dois fatores, regra removida e origem bloqueada.
+📄 Relatório: o que houve, o que foi feito e os próximos passos para não se repetir.
+
+Ferramentas e especialistas trabalhando juntos, e você sem ficar no escuro.
+
+Solicite uma proposta do Easy-SOC 👉 link na bio
+📲 WhatsApp (11) 98137-7200
+
+🔁 Mande para quem cuida da TI da sua empresa.
+
+#segurancadigital #segurancadainformacao #phishing #empresas #defainder

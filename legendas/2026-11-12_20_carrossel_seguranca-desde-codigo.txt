@@ -1,0 +1,16 @@
+Segurança no desenvolvimento de software: como fazemos desde a primeira linha de código. 🛡️💻
+
+Os 4 hábitos que seguimos em todo projeto da defAInder:
+1️⃣ Revisão de código: outro par de olhos antes de qualquer publicação
+2️⃣ Dependências atualizadas: bibliotecas de terceiros acompanhadas e corrigidas
+3️⃣ Acessos mínimos: cada pessoa e cada sistema só com a permissão que precisa
+4️⃣ Backup e monitoramento: cópias com restauração testada e alerta quando algo foge do normal
+
+Nosso time vem da cibersegurança, por isso segurança não é uma etapa no fim do projeto: ela começa no código.
+
+Tem um site, app ou sistema para tirar do papel? Fale com a gente 👉 link na bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve para usar como checklist com quem desenvolve para a sua empresa.
+
+#bastidores #empresadetecnologia #segurancadigital #tecnologia #defainder

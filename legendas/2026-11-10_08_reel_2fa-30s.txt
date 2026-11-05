@@ -1,0 +1,25 @@
+Verificação em duas etapas (2FA) em 30 segundos: mesmo que roubem sua senha, não entram 🔐
+
+🔑 1ª chave: a sua senha (algo que você sabe)
+📱 2ª chave: um código no seu celular, que vale por pouco tempo
+🚪 Sem as duas chaves, a porta não abre
+
+Onde ativar:
+1️⃣ WhatsApp: Configurações › Conta › Confirmação em duas etapas
+2️⃣ E-mail: procure em Segurança › Verificação em duas etapas
+3️⃣ Instagram: Central de Contas › Senha e segurança › Autenticação de dois fatores
+4️⃣ Banco e outros apps: procure em Segurança
+
+💡 Prefira um app autenticador ao SMS: o SMS pode ser desviado se clonarem o seu chip.
+⚠️ Nunca passe o código para ninguém, nem para quem diz ser do suporte.
+
+(Cena simulada, conta fictícia.)
+
+A defAInder trabalha com cibersegurança e ajuda pessoas e empresas a proteger contas, dados e sistemas.
+
+👉 Mais dicas no link da bio
+📲 WhatsApp (11) 98137-7200
+
+Salve e mande para quem sempre pergunta isso para você.
+
+#aprendatecnologia #dicasdetecnologia #segurancadigital #tecnologia #defainder

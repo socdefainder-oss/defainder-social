@@ -1,0 +1,21 @@
+Desligamento de funcionário: o crachá voltou, mas o acesso dele continua ativo? 🔐
+
+Checklist para o dia da saída:
+✅ E-mail: bloquear o login, redirecionar e preservar a caixa
+✅ Sistemas e nuvem: desativar o usuário e encerrar sessões abertas
+✅ WhatsApp e redes da empresa: tirar dos grupos e da administração das páginas
+✅ Senhas compartilhadas: trocar Wi-Fi, site, banco, redes e alarme
+✅ Equipamentos: notebook, celular, crachá, chaves, pendrives
+✅ Backup dos arquivos e e-mails dele antes de apagar
+✅ Registro do que foi feito, com data, hora e responsável
+
+Conta esquecida é porta aberta para vazamento e uso indevido.
+
+A defAInder revisa contas, permissões e senhas da sua empresa e mostra onde estão as brechas.
+
+👉 Diagnóstico gratuito no link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve este checklist e envie para o RH e para quem cuida da TI.
+
+#segurancadainformacao #cibersegurança #dicasdeseguranca #empresas #defainder
