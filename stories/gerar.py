@@ -15,6 +15,7 @@ import os
 import random
 import re
 import sys
+import time
 import unicodedata
 import urllib.error
 import urllib.request
@@ -105,12 +106,14 @@ def noticias(usadas):
 def modelos_gemini(chave):
     """Prefere o apelido estavel; se nao existir, pega o Flash mais novo disponivel para a chave."""
     nomes = [os.environ["MODELO"]] if os.environ.get("MODELO") else []
-    nomes.append("gemini-flash-latest")
+    nomes += ["gemini-flash-latest", "gemini-flash-lite-latest"]   # apelidos com camada gratuita
     try:
         lst = json.load(urllib.request.urlopen(f"{GEMINI}/models?key={chave}&pageSize=200", timeout=30))["models"]
         flash = [m["name"].split("/")[-1] for m in lst if "generateContent" in m.get("supportedGenerationMethods", [])
-                 and "flash" in m["name"] and not any(x in m["name"] for x in ("lite", "image", "tts", "audio", "live", "exp"))]
-        nomes += sorted(flash, reverse=True)[:3]
+                 and m["name"].split("/")[-1].startswith("gemini-") and "flash" in m["name"]
+                 and not any(x in m["name"] for x in ("omni", "image", "tts", "audio", "live", "exp", "preview"))]
+        print("modelos flash disponiveis:", ", ".join(flash))
+        nomes += sorted(flash, reverse=True)[:4]
     except Exception as e:
         print(f"aviso: lista de modelos indisponivel ({e})")
     return list(dict.fromkeys(nomes))
@@ -119,21 +122,24 @@ def modelos_gemini(chave):
 def perguntar_ia(lista):
     chave = os.environ["GEMINI_API_KEY"]
     texto = "\n\n".join(f"[{i}] ({n['fonte']}, {n['data']:%d/%m %H:%M}) {n['titulo']}\n{n['resumo']}" for i, n in enumerate(lista))
-    for modelo in modelos_gemini(chave):
-        body = {"systemInstruction": {"parts": [{"text": INSTRUCOES}]},
-                "contents": [{"role": "user", "parts": [{"text": texto}]}],
-                "generationConfig": {"temperature": 0.4, "responseMimeType": "application/json"}}
-        req = urllib.request.Request(f"{GEMINI}/models/{modelo}:generateContent", data=json.dumps(body).encode(),
-                                     headers={"x-goog-api-key": chave, "Content-Type": "application/json"})
-        try:
-            with urllib.request.urlopen(req, timeout=180) as r:
-                resp = json.load(r)
-            txt = "".join(p.get("text", "") for p in resp["candidates"][0]["content"]["parts"])
-            return json.loads(txt)["stories"], modelo
-        except urllib.error.HTTPError as e:
-            print(f"aviso: modelo {modelo} falhou (HTTP {e.code}: {e.read()[:200]!r})")
-        except Exception as e:
-            print(f"aviso: modelo {modelo} falhou ({e})")
+    body = json.dumps({"systemInstruction": {"parts": [{"text": INSTRUCOES}]},
+                       "contents": [{"role": "user", "parts": [{"text": texto}]}],
+                       "generationConfig": {"temperature": 0.4, "responseMimeType": "application/json"}}).encode()
+    modelos = modelos_gemini(chave)
+    for rodada in range(3):                       # 503 (sobrecarga) costuma passar em segundos
+        for modelo in modelos:
+            req = urllib.request.Request(f"{GEMINI}/models/{modelo}:generateContent", data=body,
+                                         headers={"x-goog-api-key": chave, "Content-Type": "application/json"})
+            try:
+                with urllib.request.urlopen(req, timeout=180) as r:
+                    resp = json.load(r)
+                txt = "".join(p.get("text", "") for p in resp["candidates"][0]["content"]["parts"])
+                return json.loads(txt)["stories"], modelo
+            except urllib.error.HTTPError as e:
+                print(f"aviso: modelo {modelo} falhou (HTTP {e.code}: {e.read()[:160]!r})")
+            except Exception as e:
+                print(f"aviso: modelo {modelo} falhou ({e})")
+        time.sleep(45)
     return [], None
 
 
