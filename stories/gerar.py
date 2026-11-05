@@ -58,8 +58,8 @@ Receberá notícias recentes (muitas em inglês). Escolha as 3 MELHORES para Sto
 
 Escolha UMA notícia para cada horário:
 - "07" (segurança): ataque hacker, vazamento de dados ou golpe relevante (categoria ataque, vazamento ou golpe).
-- "12" (IA): novidade, avanço ou impacto de inteligência artificial (categoria ia).
-- "19" (tecnologia/negócios): tecnologia que muda o dia a dia ou notícia útil para empresas (categoria tecnologia ou empresa). Só se não houver nenhuma boa, use outra de segurança.
+- "12" (IA): novidade, lançamento, avanço ou impacto de inteligência artificial no trabalho, nos negócios ou no dia a dia (categoria ia). Prefira IA FORA do tema segurança.
+- "19" (tecnologia/negócios): tecnologia que muda o dia a dia, transformação digital, novidades úteis para empresas (categoria tecnologia ou empresa). NÃO use segurança, golpe ou vazamento neste horário; só se não existir nenhuma notícia de tecnologia/negócios aproveitável, omita o horário.
 Prefira notícias relevantes para brasileiros comuns e donos de pequenas/médias empresas.
 Evite: ofertas, promoções e preços de produtos, games e entretenimento, ciência fora de tecnologia, política partidária, guerra, mortes, conteúdo sensível, fofoca, notícias muito técnicas (CVE sem impacto claro), rodadas de investimento sem interesse geral, notícias repetidas.
 
