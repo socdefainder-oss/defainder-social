@@ -1,0 +1,52 @@
+name: Gerar Stories do dia
+
+# Todo dia as 05h35 (Brasilia) le as noticias, escreve 3 Stories em pt-BR e agenda para 07h, 12h e 19h
+on:
+  schedule:
+    - cron: "35 8 * * *"
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "normal | teste (so gera as imagens, sem agendar) | agora (1o Story sai na proxima publicacao)"
+        default: normal
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  stories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Instalar navegador
+        run: |
+          pip install playwright pillow
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-color-emoji
+      - name: Gerar Stories
+        run: |
+          MODO="${{ github.event.inputs.modo || 'normal' }}"
+          if [ "$MODO" = "normal" ]; then python stories/gerar.py; else python stories/gerar.py --$MODO; fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Guardar teste
+        if: github.event.inputs.modo == 'teste'
+        uses: actions/upload-artifact@v4
+        with:
+          name: stories-teste
+          path: stories/teste/
+      - name: Registrar na agenda
+        if: github.event.inputs.modo != 'teste'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add agenda.json midia stories
+          git diff --cached --quiet || (git commit -m "Stories do dia" && git pull --rebase && git push)

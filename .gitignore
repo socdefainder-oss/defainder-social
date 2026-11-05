@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 novo_token.txt
+stories/teste/
+stories/_story.html
+__pycache__/

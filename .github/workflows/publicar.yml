@@ -1,9 +1,9 @@
 name: Publicar no Instagram
 
-# Roda de hora em hora das 08h as 21h (Brasilia = UTC-3) e publica o que venceu na agenda.json
+# Roda de hora em hora das 07h as 21h (Brasilia = UTC-3) e publica o que venceu na agenda.json
 on:
   schedule:
-    - cron: "2 0,11-23 * * *"
+    - cron: "2 0,10-23 * * *"
   workflow_dispatch:
 
 permissions:

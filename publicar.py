@@ -4,6 +4,7 @@ Uso:
   python publicar.py preparar             copia/converte a midia da agenda para midia/ e valida legendas
   python publicar.py publicar [--dry-run] publica o que ja venceu e ainda nao foi publicado
   python publicar.py status               mostra a fila
+Stories (tipo "story") sao gerados todo dia por stories/gerar.py, que ja grava a imagem em midia/.
   python publicar.py testar               confere token, conta e cota de publicacao
   python publicar.py renovar ARQUIVO      renova o token (vale 60 dias) e grava o novo em ARQUIVO
 
@@ -46,6 +47,8 @@ def arquivos(item):
     """Nomes finais em midia/: imagens viram JPEG (a API nao aceita PNG), Reels ficam em MP4."""
     if item["tipo"] == "reel":
         return [f"{item['id']}.mp4"]
+    if item["tipo"] == "story":                # gerado por stories/gerar.py direto em midia/
+        return [f"{item['id']}.jpg"]
     return [f"{item['id']}_{n:02d}.jpg" for n in range(1, len(item["origem"]) + 1)]
 
 
@@ -54,6 +57,8 @@ def quando(item):
 
 
 def legenda(item):
+    if not item.get("legenda"):
+        return ""
     return (AQUI / item["legenda"]).read_text(encoding="utf-8").strip()
 
 
@@ -64,6 +69,8 @@ def preparar():
     MIDIA.mkdir(exist_ok=True)
     erros = 0
     for item in ler_json("agenda.json", []):
+        if item["tipo"] == "story":
+            continue
         problemas = []
         n = len(item["origem"])
         if item["tipo"] == "carrossel" and not 2 <= n <= 10:
@@ -151,6 +158,8 @@ def publicar_item(item, texto):
             # plano B: a Meta baixa o MP4 pelo link publico do repositorio
             print(f"upload direto falhou ({e}); tentando por video_url")
             cid = api("POST", f"/{ig}/media", video_url=f"{base}/{nomes[0]}", **reel)["id"]
+    elif item["tipo"] == "story":
+        cid = api("POST", f"/{ig}/media", media_type="STORIES", image_url=f"{base}/{nomes[0]}")["id"]
     elif item["tipo"] == "carrossel":
         filhos = [api("POST", f"/{ig}/media", image_url=f"{base}/{n}", is_carousel_item="true")["id"] for n in nomes]
         for f in filhos:
@@ -180,7 +189,7 @@ def publicar(dry):
             continue
         try:
             mid = publicar_item(item, texto)
-            if item.get("comentario"):
+            if item.get("comentario") and item["tipo"] != "story":
                 try:
                     api("POST", f"/{mid}/comments", message=item["comentario"])
                 except RuntimeError as e:

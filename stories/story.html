@@ -1,0 +1,45 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><link rel="stylesheet" href="brand.css">
+<style>
+  body { background: #000; }
+  .story { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--navy); color: #fff; }
+  .story .ph { height: 1240px; bottom: auto; }
+  .story .ph img { object-position: {{POS}}; }
+  .story .ph::after { content: ""; position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(6,20,38,.75) 0%, rgba(6,20,38,.1) 22%, rgba(6,20,38,.15) 50%, rgba(11,35,64,.9) 82%, var(--navy) 100%); }
+  .topo { position: absolute; left: 70px; right: 70px; top: 120px; display: flex; justify-content: space-between; align-items: center; z-index: 5; }
+  .topo .brand .wd { color: #fff; } .topo .brand .wd .ai { color: #14eedd; }
+  .meio { position: absolute; left: 70px; right: 70px; bottom: 270px; z-index: 5; }
+  .data { font-family: "JetBrains Mono", monospace; font-size: 24px; letter-spacing: 3px; color: var(--teal2); font-weight: 700; }
+  #manchete { margin-top: 22px; font-size: 82px; line-height: 1.02; color: #fff; }
+  #manchete em { font-style: normal; color: var(--teal2); }
+  .warn #manchete em { color: #ff5a66; }
+  #resumo { margin-top: 30px; font-size: 36px; line-height: 1.42; color: rgba(255,255,255,.88); }
+  .dica { margin-top: 38px; padding: 30px 34px; display: flex; gap: 22px; align-items: flex-start; }
+  .dica .ic { font-size: 40px; line-height: 1; }
+  .dica .lb { font-weight: 800; font-size: 22px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--teal2); margin-bottom: 8px; }
+  .dica .tx { font-size: 32px; line-height: 1.38; font-weight: 600; }
+  .fonte { margin-top: 30px; font-size: 24px; color: rgba(255,255,255,.62); }
+  .fonte b { color: rgba(255,255,255,.9); }
+  .rodape { position: absolute; left: 70px; right: 70px; bottom: 150px; display: flex; justify-content: space-between; align-items: center;
+    font-size: 24px; font-weight: 700; color: rgba(255,255,255,.7); border-top: 1px solid rgba(255,255,255,.16); padding-top: 26px; z-index: 5; }
+  .rodape .cta { color: var(--teal2); }
+</style></head><body>
+<section class="story {{TOM}}">
+  <div class="ph"><img src="fotos/{{FOTO}}"></div>
+  <div class="topo"><div class="brand"><div class="ic">dF</div><div class="wd">def<span class="ai">AI</span>nder</div></div><span class="pill {{PILL}}">{{SELO}}</span></div>
+  <div class="meio">
+    <div class="data">NOTÍCIA · {{DATA}}</div>
+    <div id="manchete" class="punch">{{MANCHETE}}</div>
+    <div id="resumo">{{RESUMO}}</div>
+    <div class="dica glass"><div class="ic">💡</div><div><div class="lb">{{DICA_LB}}</div><div class="tx">{{DICA}}</div></div></div>
+    <div class="fonte">Fonte: <b>{{FONTE}}</b> · {{DATA_FONTE}}</div>
+  </div>
+  <div class="rodape"><span>defainder.com.br</span><span class="cta">Mais no perfil →</span></div>
+</section>
+<script>
+  // encolhe a manchete e o resumo se o bloco subir demais (area segura do Story)
+  const meio = document.querySelector('.meio'), m = document.getElementById('manchete'), r = document.getElementById('resumo');
+  let fm = 82, fr = 36;
+  while (meio.getBoundingClientRect().top < 560 && fm > 56) { fm -= 2; m.style.fontSize = fm + 'px'; if (fr > 30) { fr -= 1; r.style.fontSize = fr + 'px'; } }
+</script>
+</body></html>
