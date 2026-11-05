@@ -1,13 +1,13 @@
 """Gera os 3 Stories do dia (07h, 12h e 19h) a partir de noticias reais e agenda na agenda.json.
 
-Fluxo: le os feeds RSS das fontes -> a IA do GitHub Models escolhe 3 noticias e escreve o texto em pt-BR
+Fluxo: le os feeds RSS das fontes -> a IA (Google Gemini, camada gratuita) escolhe 3 noticias e escreve o texto em pt-BR
 (so com o que esta na noticia) -> renderiza 1080x1920 com story.html -> grava midia/<id>.jpg e agenda.
 
 Uso:
-  python stories/gerar.py                 gera os Stories de hoje (no GitHub Actions, com GITHUB_TOKEN)
+  python stories/gerar.py                 gera os Stories de hoje (no GitHub Actions)
   python stories/gerar.py --teste         so renderiza em stories/teste/, sem mexer na agenda
   python stories/gerar.py --agora         como o normal, mas agenda o 1o Story para agora (teste real)
-Variaveis: GITHUB_TOKEN (permissao models: read), MODELO (opcional)
+Variaveis: GEMINI_API_KEY (secret do repositorio), MODELO (opcional, ex.: gemini-flash-latest)
 """
 import html
 import json
@@ -16,6 +16,7 @@ import random
 import re
 import sys
 import unicodedata
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -29,7 +30,7 @@ BRT = timezone(timedelta(hours=-3))
 UA = {"User-Agent": "Mozilla/5.0 (compatible; defainder-stories/1.0; +https://defainder.com.br)"}
 HORARIOS = ["07:00", "12:00", "19:00"]
 JANELA = timedelta(hours=36)
-MODELOS = [os.environ.get("MODELO", "openai/gpt-4.1"), "openai/gpt-4.1-mini"]
+GEMINI = "https://generativelanguage.googleapis.com/v1beta"
 
 FONTES = {
     "CyberSec Brazil": "https://www.cybersecbrazil.com.br/blog-feed.xml",
@@ -101,18 +102,36 @@ def noticias(usadas):
     return lista[:45]
 
 
+def modelos_gemini(chave):
+    """Prefere o apelido estavel; se nao existir, pega o Flash mais novo disponivel para a chave."""
+    nomes = [os.environ["MODELO"]] if os.environ.get("MODELO") else []
+    nomes.append("gemini-flash-latest")
+    try:
+        lst = json.load(urllib.request.urlopen(f"{GEMINI}/models?key={chave}&pageSize=200", timeout=30))["models"]
+        flash = [m["name"].split("/")[-1] for m in lst if "generateContent" in m.get("supportedGenerationMethods", [])
+                 and "flash" in m["name"] and not any(x in m["name"] for x in ("lite", "image", "tts", "audio", "live", "exp"))]
+        nomes += sorted(flash, reverse=True)[:3]
+    except Exception as e:
+        print(f"aviso: lista de modelos indisponivel ({e})")
+    return list(dict.fromkeys(nomes))
+
+
 def perguntar_ia(lista):
+    chave = os.environ["GEMINI_API_KEY"]
     texto = "\n\n".join(f"[{i}] ({n['fonte']}, {n['data']:%d/%m %H:%M}) {n['titulo']}\n{n['resumo']}" for i, n in enumerate(lista))
-    for modelo in MODELOS:
-        body = {"model": modelo, "temperature": 0.4, "response_format": {"type": "json_object"},
-                "messages": [{"role": "system", "content": INSTRUCOES}, {"role": "user", "content": texto}]}
-        req = urllib.request.Request("https://models.github.ai/inference/chat/completions", data=json.dumps(body).encode(),
-                                     headers={"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
-                                              "Content-Type": "application/json", "Accept": "application/json"})
+    for modelo in modelos_gemini(chave):
+        body = {"systemInstruction": {"parts": [{"text": INSTRUCOES}]},
+                "contents": [{"role": "user", "parts": [{"text": texto}]}],
+                "generationConfig": {"temperature": 0.4, "responseMimeType": "application/json"}}
+        req = urllib.request.Request(f"{GEMINI}/models/{modelo}:generateContent", data=json.dumps(body).encode(),
+                                     headers={"x-goog-api-key": chave, "Content-Type": "application/json"})
         try:
-            with urllib.request.urlopen(req, timeout=120) as r:
+            with urllib.request.urlopen(req, timeout=180) as r:
                 resp = json.load(r)
-            return json.loads(resp["choices"][0]["message"]["content"])["stories"], modelo
+            txt = "".join(p.get("text", "") for p in resp["candidates"][0]["content"]["parts"])
+            return json.loads(txt)["stories"], modelo
+        except urllib.error.HTTPError as e:
+            print(f"aviso: modelo {modelo} falhou (HTTP {e.code}: {e.read()[:200]!r})")
         except Exception as e:
             print(f"aviso: modelo {modelo} falhou ({e})")
     return [], None

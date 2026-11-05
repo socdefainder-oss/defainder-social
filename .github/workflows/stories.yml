@@ -12,7 +12,6 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 concurrency:
   group: publicar
@@ -36,7 +35,7 @@ jobs:
           MODO="${{ github.event.inputs.modo || 'normal' }}"
           if [ "$MODO" = "normal" ]; then python stories/gerar.py; else python stories/gerar.py --$MODO; fi
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - name: Guardar teste
         if: github.event.inputs.modo == 'teste'
         uses: actions/upload-artifact@v4
