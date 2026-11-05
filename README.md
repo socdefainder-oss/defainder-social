@@ -48,3 +48,12 @@ Configuração atual (feita em 04.11.2026). Não é preciso ter uma Página do F
 
 - Fixar o comentário. O script publica o comentário, mas fixar é feito pelo app.
 - Música do catálogo do Instagram, Reel de teste, colaboradores e marcação de produtos.
+
+## Stories diários (notícias reais)
+
+O workflow **Gerar Stories do dia** roda às 05h35 (Brasília). Ele lê os feeds de CyberSec Brazil, The Hacker News, BleepingComputer, VentureBeat e MIT Technology Review. A IA do Google Gemini (camada gratuita, secret `GEMINI_API_KEY`) escolhe 3 notícias e escreve os textos em português, usando só o que está na matéria. O script `stories/gerar.py` monta as imagens com `stories/story.html` e agenda os Stories para 07h, 12h e 19h. O publicador posta como `tipo: "story"`.
+
+- Teste sem publicar: Actions → *Gerar Stories do dia* → Run workflow → modo `teste` (as imagens ficam no artefato da execução).
+- Publicar 1 Story agora: modo `agora` e depois rodar *Publicar no Instagram*.
+- Fotos de fundo por tema em `stories/fotos/<categoria>_N.jpg` (ataque, vazamento, golpe, ia, tecnologia, empresa).
+- Notícias já usadas ficam em `stories/usadas.json` (30 dias) para não repetir.
