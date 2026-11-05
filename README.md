@@ -51,7 +51,7 @@ Configuração atual (feita em 04.11.2026). Não é preciso ter uma Página do F
 
 ## Stories diários (notícias reais)
 
-O workflow **Gerar Stories do dia** roda às 05h35 (Brasília). Ele lê os feeds de CyberSec Brazil, The Hacker News, BleepingComputer, VentureBeat e MIT Technology Review. A IA do Google Gemini (camada gratuita, secret `GEMINI_API_KEY`) escolhe 3 notícias e escreve os textos em português, usando só o que está na matéria. O script `stories/gerar.py` monta as imagens com `stories/story.html` e agenda os Stories para 07h, 12h e 19h. O publicador posta como `tipo: "story"`.
+O workflow **Gerar Stories do dia** roda às 05h35 (Brasília). Ele lê os feeds de CyberSec Brazil, The Hacker News, BleepingComputer, VentureBeat, MIT Technology Review, Tecnoblog, Olhar Digital e Canaltech. A IA do Google Gemini (camada gratuita, secret `GEMINI_API_KEY`) escolhe uma notícia por horário (07h segurança, 12h IA, 19h tecnologia ou negócios) e escreve os textos em português, usando só o que está na matéria. O script `stories/gerar.py` monta as imagens com `stories/story.html` e agenda os Stories para 07h, 12h e 19h. O publicador posta como `tipo: "story"`.
 
 - Teste sem publicar: Actions → *Gerar Stories do dia* → Run workflow → modo `teste` (as imagens ficam no artefato da execução).
 - Publicar 1 Story agora: modo `agora` e depois rodar *Publicar no Instagram*.

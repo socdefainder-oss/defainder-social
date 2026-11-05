@@ -39,7 +39,11 @@ FONTES = {
     "BleepingComputer": "https://www.bleepingcomputer.com/feed/",
     "VentureBeat": "https://venturebeat.com/feed/",
     "MIT Technology Review": "https://www.technologyreview.com/feed/",
+    "Tecnoblog": "https://tecnoblog.net/feed/",
+    "Olhar Digital": "https://olhardigital.com.br/feed/",
+    "Canaltech": "https://canaltech.com.br/rss/",
 }
+POR_FONTE = 10            # noticias mais recentes de cada fonte (equilibra seguranca x IA/tecnologia)
 CATEGORIAS = {  # categoria -> (selo, tom, rotulo da dica)
     "ataque": ("Ataque hacker", "warn", "O que fazer"),
     "vazamento": ("Vazamento", "warn", "O que fazer"),
@@ -52,10 +56,12 @@ CATEGORIAS = {  # categoria -> (selo, tom, rotulo da dica)
 INSTRUCOES = """Você é o editor de Stories do Instagram da defAInder, empresa brasileira de cibersegurança, IA e desenvolvimento.
 Receberá notícias recentes (muitas em inglês). Escolha as 3 MELHORES para Stories de hoje e escreva cada uma em português do Brasil.
 
-Escolha:
-- Notícias reais e relevantes para brasileiros comuns e donos de pequenas/médias empresas: ataques e vazamentos grandes, golpes, avanços de IA, tecnologia que muda o dia a dia.
-- Varie os assuntos: no máximo 2 de segurança (ataque/vazamento/golpe); inclua pelo menos 1 de IA ou tecnologia quando houver.
-- Evite: notícias muito técnicas (CVE sem impacto claro), política partidária, guerra, mortes, conteúdo sensível, fofoca, notícias de fundraising sem interesse geral, notícias repetidas.
+Escolha UMA notícia para cada horário:
+- "07" (segurança): ataque hacker, vazamento de dados ou golpe relevante (categoria ataque, vazamento ou golpe).
+- "12" (IA): novidade, avanço ou impacto de inteligência artificial (categoria ia).
+- "19" (tecnologia/negócios): tecnologia que muda o dia a dia ou notícia útil para empresas (categoria tecnologia ou empresa). Só se não houver nenhuma boa, use outra de segurança.
+Prefira notícias relevantes para brasileiros comuns e donos de pequenas/médias empresas.
+Evite: ofertas, promoções e preços de produtos, games e entretenimento, ciência fora de tecnologia, política partidária, guerra, mortes, conteúdo sensível, fofoca, notícias muito técnicas (CVE sem impacto claro), rodadas de investimento sem interesse geral, notícias repetidas.
 
 Escreva (tom profissional, direto, sem sensacionalismo, sem gírias):
 - manchete: até 60 caracteres, forte e clara. Envolva 1 a 3 palavras-chave entre *asteriscos* para destaque.
@@ -66,9 +72,9 @@ Escreva (tom profissional, direto, sem sensacionalismo, sem gírias):
 Regras obrigatórias:
 - Use SOMENTE fatos presentes no título/resumo da notícia. Não invente números, nomes, datas, causas nem consequências.
 - Nomes próprios de empresas e produtos ficam como no original. Não traduza nomes.
-- Se não houver 3 notícias boas, devolva menos.
+- Se não houver notícia boa para um horário, omita esse horário.
 
-Responda apenas JSON: {"stories": [{"indice": <número da notícia>, "categoria": "...", "manchete": "...", "resumo": "...", "dica": "..."}]}"""
+Responda apenas JSON: {"stories": [{"horario": "07|12|19", "indice": <número da notícia>, "categoria": "...", "manchete": "...", "resumo": "...", "dica": "..."}]}"""
 
 
 def baixar(url):
@@ -100,7 +106,8 @@ def noticias(usadas):
             lista.append({"fonte": fonte, "titulo": limpar(it.findtext("title")), "resumo": limpar(it.findtext("description"))[:500],
                           "link": link, "data": data.astimezone(BRT)})
     lista.sort(key=lambda n: n["data"], reverse=True)
-    return lista[:45]
+    por_fonte = {}
+    return [n for n in lista if por_fonte.setdefault(n["fonte"], []).append(n) or len(por_fonte[n["fonte"]]) <= POR_FONTE]
 
 
 def modelos_gemini(chave):
@@ -211,13 +218,16 @@ def main():
         return
     escolhas, modelo = perguntar_ia(lista)
     escolhas = [s for s in escolhas if valido(s, lista)]
-    vistos, itens = set(), []
-    for s in escolhas:
-        if s["indice"] in vistos:
+    vistos, horas, itens = set(), set(), []
+    livres = [h for h in HORARIOS]
+    for s in sorted(escolhas, key=lambda s: str(s.get("horario", "99"))):
+        h = f"{str(s.get('horario', ''))[:2]}:00"
+        if s["indice"] in vistos or not livres:
             continue
-        vistos.add(s["indice"])
+        h = h if h in livres else livres[0]      # horario invalido ou repetido: usa o proximo livre
+        livres.remove(h); vistos.add(s["indice"])
         n = lista[s["indice"]]
-        hora = hoje.strftime("%H:%M") if (agora_ and not itens) else HORARIOS[len(itens)]
+        hora = hoje.strftime("%H:%M") if agora_ else h
         itens.append({"story": s, "noticia": n, "dia": hoje.strftime("%d/%m"), "hora": hora,
                       "id": f"{dia}_{hora[:2]}_story_{slug(s['manchete'].replace('*', ''))}"})
         if len(itens) == 3 or agora_:          # --agora: so 1 Story, para teste real
