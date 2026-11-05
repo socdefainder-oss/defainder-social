@@ -143,9 +143,14 @@ def publicar_item(item, texto):
     base = os.environ["MEDIA_BASE_URL"].rstrip("/")
     nomes = arquivos(item)
     if item["tipo"] == "reel":
-        cid = api("POST", f"/{ig}/media", media_type="REELS", upload_type="resumable", caption=texto,
-                  share_to_feed="true", thumb_offset=str(item.get("capa_ms", 0)))["id"]
-        enviar_video(cid, MIDIA / nomes[0])
+        reel = dict(media_type="REELS", caption=texto, share_to_feed="true", thumb_offset=str(item.get("capa_ms", 0)))
+        try:
+            cid = api("POST", f"/{ig}/media", upload_type="resumable", **reel)["id"]
+            enviar_video(cid, MIDIA / nomes[0])
+        except RuntimeError as e:
+            # plano B: a Meta baixa o MP4 pelo link publico do repositorio
+            print(f"upload direto falhou ({e}); tentando por video_url")
+            cid = api("POST", f"/{ig}/media", video_url=f"{base}/{nomes[0]}", **reel)["id"]
     elif item["tipo"] == "carrossel":
         filhos = [api("POST", f"/{ig}/media", image_url=f"{base}/{n}", is_carousel_item="true")["id"] for n in nomes]
         for f in filhos:
