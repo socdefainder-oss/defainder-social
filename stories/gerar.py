@@ -6,7 +6,7 @@ Fluxo: le os feeds RSS das fontes -> a IA (Google Gemini, camada gratuita) escol
 Uso:
   python stories/gerar.py                 gera os Stories de hoje (no GitHub Actions)
   python stories/gerar.py --teste         so renderiza em stories/teste/, sem mexer na agenda
-  python stories/gerar.py --agora         como o normal, mas agenda o 1o Story para agora (teste real)
+  python stories/gerar.py --agora         gera e agenda 1 Story para agora (teste real)
 Variaveis: GEMINI_API_KEY (secret do repositorio), MODELO (opcional, ex.: gemini-flash-latest)
 """
 import html
@@ -220,7 +220,7 @@ def main():
         hora = hoje.strftime("%H:%M") if (agora_ and not itens) else HORARIOS[len(itens)]
         itens.append({"story": s, "noticia": n, "dia": hoje.strftime("%d/%m"), "hora": hora,
                       "id": f"{dia}_{hora[:2]}_story_{slug(s['manchete'].replace('*', ''))}"})
-        if len(itens) == 3:
+        if len(itens) == 3 or agora_:          # --agora: so 1 Story, para teste real
             break
     print(f"modelo: {modelo} · {len(itens)} stories")
     if not itens:
