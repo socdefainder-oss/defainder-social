@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       modo:
-        description: "normal | teste (so gera as imagens, sem agendar) | agora (1o Story sai na proxima publicacao)"
+        description: "normal | teste (so gera as imagens, sem agendar) | agora (1o Story sai na proxima publicacao) | refazer-07, refazer-12, refazer-19 (troca o Story de hoje desse horario, se ainda nao saiu)"
         default: normal
 
 permissions:

@@ -52,6 +52,13 @@ CATEGORIAS = {  # categoria -> (selo, tom, rotulo da dica)
     "tecnologia": ("Tecnologia", "", "Por que importa"),
     "empresa": ("Para empresas", "", "Por que importa"),
 }
+# Regra fixa por horario (vale mesmo se a IA errar a categoria): 07 seguranca, 12 IA, 19 tecnologia/negocios.
+SLOTS = {"07": {"ataque", "vazamento", "golpe"}, "12": {"ia"}, "19": {"tecnologia", "empresa"}}
+# 12h e 19h nao podem ser de seguranca: confere titulo/resumo/link originais e o texto gerado.
+SEGURANCA = re.compile(
+    r"golp|fraud|hacker|hack|invas|ataque|attack|vazament|vaza\b|leak|breach|ransomware|malware|phishing|scam|"
+    r"spam|sms falso|falsific|criminos|cibercrim|cyber|ciberseg|seguran[cç]a digital|vulnerab|exploit|\bcve-|"
+    r"backdoor|spyware|trojan|botnet|ddos|roubo de dados|senha vazada|/seguranca/|/security/", re.I)
 
 INSTRUCOES = """Você é o editor de Stories do Instagram da defAInder, empresa brasileira de cibersegurança, IA e desenvolvimento.
 Receberá notícias recentes (muitas em inglês). Escolha as 3 MELHORES para Stories de hoje e escreva cada uma em português do Brasil.
@@ -59,7 +66,8 @@ Receberá notícias recentes (muitas em inglês). Escolha as 3 MELHORES para Sto
 Escolha UMA notícia para cada horário:
 - "07" (segurança): ataque hacker, vazamento de dados ou golpe relevante (categoria ataque, vazamento ou golpe).
 - "12" (IA): novidade, lançamento, avanço ou impacto de inteligência artificial no trabalho, nos negócios ou no dia a dia (categoria ia). Prefira IA FORA do tema segurança.
-- "19" (tecnologia/negócios): tecnologia que muda o dia a dia, transformação digital, novidades úteis para empresas (categoria tecnologia ou empresa). NÃO use segurança, golpe ou vazamento neste horário; só se não existir nenhuma notícia de tecnologia/negócios aproveitável, omita o horário.
+- "19" (tecnologia/negócios): tecnologia que muda o dia a dia, transformação digital, novidades úteis para empresas (categoria tecnologia ou empresa). PROIBIDO neste horário: qualquer notícia que envolva segurança, golpe, fraude, SMS/e-mail falso, hacker, ataque, vazamento ou crime digital, mesmo que seja sobre regras ou empresas. Se não houver notícia de tecnologia/negócios aproveitável, omita o horário.
+- Os 3 horários devem ter assuntos diferentes entre si.
 Prefira notícias relevantes para brasileiros comuns e donos de pequenas/médias empresas.
 Evite: ofertas, promoções e preços de produtos, games e entretenimento, ciência fora de tecnologia, política partidária, guerra, mortes, conteúdo sensível, fofoca, notícias muito técnicas (CVE sem impacto claro), rodadas de investimento sem interesse geral, notícias repetidas.
 
@@ -126,10 +134,13 @@ def modelos_gemini(chave):
     return list(dict.fromkeys(nomes))
 
 
-def perguntar_ia(lista):
+def perguntar_ia(lista, instrucoes=INSTRUCOES, indices=None):
+    """indices: quais noticias da lista mostrar para a IA (o numero [i] continua sendo o da lista completa)."""
     chave = os.environ["GEMINI_API_KEY"]
-    texto = "\n\n".join(f"[{i}] ({n['fonte']}, {n['data']:%d/%m %H:%M}) {n['titulo']}\n{n['resumo']}" for i, n in enumerate(lista))
-    body = json.dumps({"systemInstruction": {"parts": [{"text": INSTRUCOES}]},
+    mostrar = range(len(lista)) if indices is None else indices
+    texto = "\n\n".join(f"[{i}] ({lista[i]['fonte']}, {lista[i]['data']:%d/%m %H:%M}) {lista[i]['titulo']}\n{lista[i]['resumo']}"
+                        for i in mostrar)
+    body = json.dumps({"systemInstruction": {"parts": [{"text": instrucoes}]},
                        "contents": [{"role": "user", "parts": [{"text": texto}]}],
                        "generationConfig": {"temperature": 0.4, "responseMimeType": "application/json"}}).encode()
     modelos = modelos_gemini(chave)
@@ -155,6 +166,24 @@ def valido(s, lista):
     if not isinstance(s.get("indice"), int) or not 0 <= s["indice"] < len(lista) or s.get("categoria") not in CATEGORIAS:
         return False
     return all(isinstance(s.get(k), str) and 0 < len(s[k].replace("*", "")) <= v for k, v in lim.items())
+
+
+def e_seguranca(n, s=None):
+    txt = " ".join([n["titulo"], n["resumo"], n["link"]] + ([s["manchete"], s["resumo"], s["dica"]] if s else []))
+    return bool(SEGURANCA.search(txt))
+
+
+def cabe(s, n, h):
+    """A noticia escolhida pode ir neste horario?"""
+    if s["categoria"] not in SLOTS[h]:
+        return False
+    return h == "07" or not e_seguranca(n, s)
+
+
+def instrucoes_vaga(h):
+    alvo = {"12": 'o horário "12" (IA, categoria ia)', "19": 'o horário "19" (tecnologia/negócios, categoria tecnologia ou empresa)',
+            "07": 'o horário "07" (segurança, categoria ataque, vazamento ou golpe)'}[h]
+    return INSTRUCOES + f"\n\nNESTA RODADA escolha UMA notícia apenas para {alvo}. Responda o JSON com no máximo 1 story."
 
 
 def destacar(t):
@@ -203,36 +232,81 @@ def slug(t):
     return "-".join(t.split("-")[:5]) or "noticia"
 
 
+def distribuir(escolhas, lista, livres, vistos):
+    """Encaixa cada escolha valida num horario livre em que ela cabe; descarta o que nao cabe em nenhum."""
+    saida = {}
+    escolhas = [s for s in escolhas if isinstance(s, dict)]
+    for s in sorted(escolhas, key=lambda s: str(s.get("horario", "99"))):
+        if not valido(s, lista) or s["indice"] in vistos:
+            continue
+        n = lista[s["indice"]]
+        pedido = str(s.get("horario", ""))[:2]
+        for h in ([pedido] if pedido in livres else []) + [x for x in livres if x != pedido]:
+            if cabe(s, n, h):
+                saida[h] = s; livres.remove(h); vistos.add(s["indice"])
+                break
+        else:
+            print(f"descartado (fora da regra do horario {pedido}): {s.get('manchete')}  [{n['fonte']}]")
+    return saida
+
+
 def main():
     teste, agora_ = "--teste" in sys.argv, "--agora" in sys.argv
+    refazer = next((a[10:12] for a in sys.argv if re.fullmatch(r"--refazer-\d\d", a)), None)   # ex.: --refazer-19
+    if refazer and refazer not in SLOTS:
+        sys.exit(f"horario invalido para refazer: {refazer}")
     hoje = datetime.now(BRT)
     usadas_p = AQUI / "usadas.json"
     usadas = json.loads(usadas_p.read_text(encoding="utf-8")) if usadas_p.exists() else {}
     agenda = json.loads((RAIZ / "agenda.json").read_text(encoding="utf-8"))
     dia = hoje.strftime("%Y-%m-%d")
-    if not teste and any(i["tipo"] == "story" and i["quando"].startswith(dia) for i in agenda) and not agora_:
+    alvo = HORARIOS
+    if refazer:
+        feitos = json.loads((RAIZ / "publicados.json").read_text(encoding="utf-8"))
+        velhos = [i for i in agenda if i["tipo"] == "story" and i["quando"] == f"{dia} {refazer}:00"]
+        if any(i["id"] in feitos for i in velhos):
+            sys.exit(f"o Story das {refazer}h de hoje ja foi publicado; nada a refazer")
+        for i in velhos:                      # tira da fila; o link fica marcado como usado para nao voltar
+            print(f"removendo da fila: {i['id']}")
+            agenda.remove(i); usadas[i["fonte"]] = dia
+            if not teste:
+                (MIDIA / f"{i['id']}.jpg").unlink(missing_ok=True)
+        alvo = [f"{refazer}:00"]
+    elif not teste and any(i["tipo"] == "story" and i["quando"].startswith(dia) for i in agenda) and not agora_:
         print("stories de hoje ja gerados"); return
-    lista = noticias(usadas)
+    # assuntos que ja estao na fila hoje nao podem se repetir
+    vistos_links = {i["fonte"] for i in agenda if i["tipo"] == "story" and i["quando"].startswith(dia)}
+    lista = [n for n in noticias(usadas) if n["link"] not in vistos_links]
     print(f"{len(lista)} noticias nas ultimas {JANELA}")
     if not lista:
         return
-    escolhas, modelo = perguntar_ia(lista)
-    escolhas = [s for s in escolhas if valido(s, lista)]
-    vistos, horas, itens = set(), set(), []
-    livres = [h for h in HORARIOS]
-    for s in sorted(escolhas, key=lambda s: str(s.get("horario", "99"))):
-        h = f"{str(s.get('horario', ''))[:2]}:00"
-        if s["indice"] in vistos or not livres:
-            continue
-        h = h if h in livres else livres[0]      # horario invalido ou repetido: usa o proximo livre
-        livres.remove(h); vistos.add(s["indice"])
-        n = lista[s["indice"]]
-        hora = hoje.strftime("%H:%M") if agora_ else h
+    livres = [h[:2] for h in alvo]
+    vistos, modelo = set(), None
+    if not refazer:
+        escolhas, modelo = perguntar_ia(lista)
+        escolhidos = distribuir(escolhas, lista, livres, vistos)
+    else:
+        escolhidos = {}
+    if not agora_:
+        for h in list(livres):                # horario vazio: nova rodada so com noticias que cabem nele
+            pool = [i for i, n in enumerate(lista) if i not in vistos and (h == "07" or not e_seguranca(n))]
+            if not pool:
+                print(f"sem noticias possiveis para {h}h"); continue
+            escolhas, m = perguntar_ia(lista, instrucoes_vaga(h), pool)
+            modelo = modelo or m
+            escolhas = [dict(s, horario=h) for s in escolhas if isinstance(s, dict) and s.get("indice") in pool]
+            escolhidos.update(distribuir(escolhas, lista, [h], vistos))
+            if h in escolhidos:
+                livres.remove(h)
+    itens = []
+    for h in sorted(escolhidos):
+        s = escolhidos[h]; n = lista[s["indice"]]
+        hora = hoje.strftime("%H:%M") if agora_ else f"{h}:00"
         itens.append({"story": s, "noticia": n, "dia": hoje.strftime("%d/%m"), "hora": hora,
                       "id": f"{dia}_{hora[:2]}_story_{slug(s['manchete'].replace('*', ''))}"})
-        if len(itens) == 3 or agora_:          # --agora: so 1 Story, para teste real
+        if agora_:                            # --agora: so 1 Story, para teste real
             break
-    print(f"modelo: {modelo} · {len(itens)} stories")
+    print(f"modelo: {modelo} · {len(itens)} stories · vazios: {', '.join(livres) or 'nenhum'}")
     if not itens:
         return
     saida = AQUI / "teste" if teste else MIDIA
