@@ -22,8 +22,8 @@ body { background: #ccc; font-family: Inter, sans-serif; color: var(--ink); -web
 /* cabecalho e rodape */
 .top { position: absolute; left: 80px; right: 80px; top: 64px; display: flex; justify-content: space-between; align-items: center; z-index: 5; }
 .brand { display: flex; align-items: center; gap: 14px; }
-.brand .ic { width: 50px; height: 50px; border-radius: 12px; background: linear-gradient(135deg, #14eedd, #21f4c4); color: #04323c;
-  font-family: Sora; font-weight: 800; font-size: 23px; display: flex; align-items: center; justify-content: center; letter-spacing: -1px; }
+.brand .ic { width: 50px; height: 50px; border-radius: 12px; background: url('logo_df.png') 52% 50% / 74% auto no-repeat, linear-gradient(135deg, #14eedd, #21f4c4); color: transparent;
+  font-family: Sora; font-weight: 800; font-size: 0; display: flex; align-items: center; justify-content: center; letter-spacing: -1px; }
 .brand .wd { font-family: Sora; font-weight: 800; font-size: 29px; letter-spacing: -.8px; color: var(--navy); }
 .brand .wd .ai { color: var(--ai); margin: 0 2px; }
 .dark .brand .wd { color: #fff; } .dark .brand .wd .ai { color: #14eedd; }
