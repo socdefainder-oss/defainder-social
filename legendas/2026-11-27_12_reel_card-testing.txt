@@ -1,0 +1,20 @@
+Card testing: robôs usando a sua loja virtual para testar cartões roubados. Centenas de tentativas de valor baixo, de madrugada, cada uma com um cartão diferente. 🤖💳
+
+Como proteger o checkout:
+1️⃣ Verificação anti-robô na página de pagamento
+2️⃣ Limite de tentativas: várias recusas seguidas = bloqueio temporário
+3️⃣ Antifraude do meio de pagamento ligado, com código de segurança (CVV) e autenticação do banco
+4️⃣ Alerta de muitas recusas em poucos minutos, para agir na hora
+
+⚠️ O sinal: pico de pagamentos recusados de valor baixo, fora do horário normal. E a conta pode sobrar para a loja: taxas e estornos.
+
+(Cena simulada, loja fictícia, números de exemplo.)
+
+A defAInder protege empresas com monitoramento e segurança, e desenvolve lojas com segurança desde a primeira linha de código.
+
+👉 Diagnóstico grátis de segurança: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem cuida da loja virtual, principalmente nesta Black Friday.
+
+#cibersegurança #segurancadigital #segurancadainformacao #empresas #defainder

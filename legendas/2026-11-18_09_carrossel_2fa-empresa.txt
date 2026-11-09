@@ -1,0 +1,25 @@
+Autenticação em dois fatores (2FA) na empresa: as 6 contas para ativar hoje. 🔐
+
+Senha vazada sozinha não deveria abrir nenhuma conta da empresa. Comece por estas:
+1️⃣ E-mail: quem entra nele redefine a senha de quase tudo
+2️⃣ Banco: token ou app e, se o banco oferecer, aprovação dupla para pagamentos
+3️⃣ Domínio e DNS: quem controla o domínio controla o site e o e-mail
+4️⃣ Redes sociais e gerenciador de anúncios
+5️⃣ Nuvem: arquivos, pacote de escritório e servidores
+6️⃣ Sistema de gestão: ERP, financeiro, CRM e nota fiscal
+
+Depois de ativar:
+✅ Prefira app autenticador ou chave de segurança ao SMS
+✅ Guarde os códigos de recuperação fora do celular
+✅ Tenha um segundo administrador em cada conta
+✅ Funcionário saiu? Remova o acesso e o aparelho no mesmo dia
+✅ Ninguém pede o seu código. Se pediram, é golpe
+
+A defAInder avalia os acessos da sua empresa e mostra o que proteger primeiro.
+
+Diagnóstico gratuito 👉 link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e passe para quem cuida das senhas da empresa.
+
+#cibersegurança #segurancadigital #segurancadainformacao #empresas #defainder

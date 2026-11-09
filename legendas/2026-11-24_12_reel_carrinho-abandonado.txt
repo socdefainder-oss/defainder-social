@@ -1,0 +1,20 @@
+Carrinho abandonado: dá para recuperar essa venda pelo WhatsApp, no automático. 🛒💬
+
+Como funciona a automação:
+1️⃣ Gatilho: o carrinho fica parado e a loja avisa a automação
+2️⃣ Espera: aguarda um pouco e confere se o cliente não comprou
+3️⃣ Mensagem: manda no WhatsApp o nome do produto e o link direto para o carrinho
+4️⃣ Dúvida: se o cliente responder, a conversa vai para a sua equipe
+
+⚠️ Importante: só envie para quem autorizou receber mensagens, com opção de sair. É regra do WhatsApp, e a LGPD garante o direito de sair.
+
+(Cena simulada, loja e preços de exemplo.)
+
+A defAInder cria automações com n8n e IA que conectam a sua loja ao WhatsApp, com segurança desde o primeiro dia.
+
+👉 Quer essa automação na sua loja? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e compartilhe com quem tem loja online.
+
+#automacao #whatsappbusiness #n8n #empreendedorismo #defainder

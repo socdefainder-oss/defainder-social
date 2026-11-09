@@ -1,0 +1,15 @@
+Manutenção de site: site no ar não é site cuidado. Atualizações, backup e HTTPS são o básico para ele continuar seguro e funcionando. 🛠️🔒
+
+1️⃣ Atualizações: plataforma, tema e plugins em dia (é por elas que chegam as correções de segurança). Teste antes numa cópia e remova o que não usa.
+2️⃣ Backup: automático, guardado fora do servidor do site, com várias versões e restauração testada de tempos em tempos.
+3️⃣ HTTPS: certificado sempre válido, com renovação automática, e todo o site na versão segura.
+4️⃣ Monitoramento com alerta: site fora do ar ou certificado vencendo, você fica sabendo antes do cliente.
+
+A defAInder DEV desenvolve e cuida de sites com segurança desde a primeira linha de código.
+
+Peça uma análise gratuita do seu site 👉 link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve este checklist e mande para quem cuida do site da sua empresa.
+
+#sites #desenvolvimentoweb #presencadigital #tecnologia #defainder

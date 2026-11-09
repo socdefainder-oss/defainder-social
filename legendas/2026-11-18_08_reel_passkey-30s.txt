@@ -1,0 +1,21 @@
+Passkey (chave de acesso): entrar na conta sem digitar senha, só com o rosto, a digital ou o PIN do celular. 🔑
+
+Em 30 segundos:
+1️⃣ No lugar da senha, o celular guarda uma chave secreta que não sai do aparelho
+2️⃣ Para usar, você desbloqueia o celular como faz todo dia
+3️⃣ O site não recebe o seu rosto nem a sua digital, só a confirmação de que é você
+4️⃣ A chave só funciona no site verdadeiro: num site falso, ela não abre (proteção contra phishing)
+
+Onde ativar: nas configurações da conta, procure Segurança › Chave de acesso (ou "Passkey").
+⚠️ Mantenha o bloqueio de tela ativo e deixe outro jeito de entrar, caso perca o celular.
+
+(Tela simulada, site fictício.)
+
+A defAInder trabalha com cibersegurança e explica tecnologia sem complicação, para você se proteger melhor.
+
+👉 Mais dicas de segurança: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem vive esquecendo a senha.
+
+#dicasdetecnologia #aprendatecnologia #segurancadigital #tecnologia #defainder

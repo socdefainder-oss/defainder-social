@@ -1,0 +1,25 @@
+Resposta a incidentes: "fomos atacados, e agora?" O que a defAInder faz nas primeiras ações de um incidente. 🚨🛡️
+
+O que NÃO fazer nos primeiros minutos:
+❌ Formatar ou reinstalar as máquinas (apaga as pistas)
+❌ Apagar arquivos e e-mails suspeitos sem registrar
+❌ Pagar resgate ou negociar com o criminoso por conta própria
+❌ Combinar a resposta pelo e-mail que pode estar invadido
+
+A primeira hora:
+1️⃣ Entender o que aconteceu: quando, em quais máquinas, contas e sistemas
+2️⃣ Conter: isolar da rede o que foi afetado
+3️⃣ Fechar as portas: trocar senhas críticas, encerrar sessões, bloquear acessos suspeitos
+4️⃣ Preservar evidências: registros, telas, horários e arquivos
+5️⃣ Avaliar o impacto: há dados pessoais envolvidos? Isso define as obrigações pela LGPD
+
+Depois: eliminar a causa, recuperar pelo backup, relatório do que houve e prevenção.
+
+A defAInder CYBER atua em resposta a incidentes, planos de resposta e monitoramento contínuo com o Easy-SOC.
+
+👉 Diagnóstico gratuito: link na bio
+📲 WhatsApp (11) 98137-7200
+
+🔁 Compartilhe com quem cuida da TI da empresa: o plano tem que existir antes do problema.
+
+#cibersegurança #ransomware #segurancadainformacao #empresas #defainder

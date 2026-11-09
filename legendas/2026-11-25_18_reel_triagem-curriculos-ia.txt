@@ -1,0 +1,18 @@
+Triagem de currículos com IA: dá para usar, mas com regra. Deixar a IA escolher sozinha pode repetir vieses e descartar gente boa sem ninguém ver. 🤖🙋
+
+Como fazer com cuidado:
+1️⃣ Critérios ligados à vaga: experiência, habilidades, disponibilidade. Idade, foto, endereço e estado civil ficam de fora
+2️⃣ Antes de a IA ler, oculte o que não importa para a vaga, como nome, foto e idade
+3️⃣ A IA organiza e resume. Quem decide é uma pessoa, que revisa também os descartados
+4️⃣ LGPD: avise o candidato que há uso de IA, guarde os dados só pelo tempo necessário e use ferramenta com contrato e acesso controlado
+
+(Cena simulada, empresa fictícia.)
+
+A defAInder cria automações e agentes de IA para empresas, com uma pessoa no controle onde importa e segurança dos dados desde o início.
+
+👉 Fale com a gente: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem cuida do RH da sua empresa.
+
+#inteligenciaartificial #automacao #lgpd #empresas #defainder

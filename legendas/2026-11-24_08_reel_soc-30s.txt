@@ -1,0 +1,18 @@
+O que é um SOC? Entenda em 30 segundos quem fica de olho na segurança da empresa enquanto todo mundo dorme. 🛡️👁️
+
+SOC = Centro de Operações de Segurança (em inglês, Security Operations Center). Na prática:
+1️⃣ Coleta: junta os registros de computadores, e-mails, servidores e firewall
+2️⃣ Detecta: ferramentas cruzam tudo e apontam o que foge do normal, como um login de madrugada
+3️⃣ Analisa: um analista confere se é ataque de verdade ou alarme falso
+4️⃣ Age: bloqueia o acesso, isola a máquina e avisa a empresa
+
+(Cena simulada, empresa fictícia.)
+
+Na defAInder, esse serviço é o Easy-SOC, 24/7: ferramentas e especialistas de olho na sua empresa.
+
+👉 Saiba mais no link da bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem acha que segurança é só antivírus.
+
+#cibersegurança #segurancadainformacao #tecnologiadainformacao #tecnologia #defainder

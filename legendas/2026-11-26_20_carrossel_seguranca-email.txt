@@ -1,0 +1,19 @@
+Segurança do e-mail corporativo: 4 camadas para o golpe não entrar pela caixa de entrada da sua empresa. 📧🛡️
+
+1️⃣ Anti-phishing: filtro de links e anexos, aviso de e-mail externo e equipe treinada para reportar
+2️⃣ Autenticação do domínio: SPF, DKIM e DMARC para ninguém enviar e-mail se passando pela sua empresa
+3️⃣ Contas protegidas: verificação em duas etapas (2FA), senhas únicas, admin só para quem precisa e contas de ex-funcionários desativadas
+4️⃣ Alertas: login de local ou horário estranho, regra que encaminha e-mails para fora, envio em massa e muitas tentativas de senha
+
+Alerta só funciona se alguém olha e age, inclusive de madrugada e no fim de semana.
+
+(E-mail e alerta do post são fictícios.)
+
+A defAInder revisa as 4 camadas, configura o que falta e acompanha os alertas com o Easy-SOC.
+
+Diagnóstico gratuito 👉 link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e compartilhe com quem cuida da TI da empresa.
+
+#cibersegurança #phishing #segurancadainformacao #empresas #defainder

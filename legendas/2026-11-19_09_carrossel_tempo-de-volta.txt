@@ -1,0 +1,24 @@
+Automação de processos: quanto tempo ela devolve para a sua equipe? Fizemos a conta numa empresa de exemplo. ⏳
+
+O exemplo (minutos por dia, antes → depois):
+💬 Responder perguntas repetidas: 40 → 10
+📋 Lançar pedidos na planilha: 30 → 5
+📊 Montar o relatório do dia: 25 → 5
+💳 Conferir pagamentos: 20 → 5
+
+A conta: 90 minutos por dia × 20 dias úteis ÷ 60 = 30 horas por mês.
+
+Repare que o "depois" não é zero: sobra a revisão das exceções e as decisões, que continuam com as pessoas.
+
+Faça a sua: (minutos antes − minutos depois) × dias úteis ÷ 60 = horas por mês.
+
+(Cálculo de exemplo com tempos fictícios. Não é promessa de resultado: cada empresa tem a sua conta.)
+
+A defAInder mapeia as tarefas repetitivas da sua empresa e mostra o que automatizar primeiro, com IA, n8n e integração de sistemas.
+
+Diagnóstico gratuito 👉 link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve para fazer a conta com a sua equipe e compartilhe com quem vive dizendo que "não tem tempo".
+
+#automacao #automacaodeprocessos #produtividade #empresas #defainder

@@ -1,0 +1,15 @@
+O que é criptografia? É o que protege a sua senha no caminho entre você e o site. 🔐
+
+Em 30 segundos:
+🔀 Criptografia embaralha os dados: quem interceptar no caminho só vê um código sem sentido
+🔒 O cadeado e o "https" ao lado do endereço mostram que a conexão é criptografada (em alguns navegadores o ícone é diferente)
+⚠️ Cadeado NÃO prova que o site é honesto: site de golpe também pode ter. Confira o endereço letra por letra
+🚫 Apareceu "Não seguro"? Não digite senha nem número de cartão
+
+A defAInder trabalha com segurança digital e explica tecnologia sem complicação.
+
+👉 Mais dicas no link da bio
+
+📌 Salve e mande para quem sempre pergunta o que é esse cadeado.
+
+#tecnologia #aprendatecnologia #dicasdetecnologia #dicas #defainder

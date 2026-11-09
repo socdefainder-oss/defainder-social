@@ -1,0 +1,23 @@
+IA para escrever e-mail difícil: cobrar, recusar ou avisar um atraso sem travar na primeira linha. ✉️✨
+
+A fórmula:
+1️⃣ Contexto: o que aconteceu e quem vai ler (sem nomes nem dados sigilosos)
+2️⃣ Objetivo: o que você quer que a pessoa faça depois de ler
+3️⃣ Tom: educado, firme e curto, e peça 3 versões
+4️⃣ Revisão: "leia como se fosse o destinatário e aponte o que pode soar mal"
+
+📋 Prompt para copiar:
+"Contexto: [o que aconteceu e quem vai ler]. Objetivo: [o que a pessoa deve fazer]. Tom: educado, firme e curto. Escreva 3 versões."
+
+⚠️ Antes de enviar: ajuste com as suas palavras e confira datas, valores e nomes. A IA pode errar, e quem envia é você.
+
+(Cena simulada, e-mail fictício.)
+
+Na defAInder, a gente usa IA no dia a dia e ajuda empresas a colocar a IA para trabalhar com segurança.
+
+👉 Mais dicas de IA: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve para usar no próximo e-mail difícil e mande para quem vive adiando aquela resposta.
+
+#inteligenciaartificial #prompts #dicasdeia #dicas #defainder

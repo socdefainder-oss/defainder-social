@@ -1,0 +1,19 @@
+Backup testado: quando foi a última vez que a sua empresa restaurou um backup de verdade? Backup que nunca foi restaurado é só uma esperança. 💾⚠️
+
+Como testar:
+1️⃣ Escolha arquivos e um sistema importante e restaure numa área de teste, nunca por cima do original
+2️⃣ Abra o que voltou: os arquivos abrem? Os dados estão completos e recentes?
+3️⃣ Cronometre: o tempo da restauração é o tempo que a empresa ficaria parada
+4️⃣ Confira se existe uma cópia fora da rede, que um ataque não consiga apagar
+5️⃣ Anote data e resultado e repita com frequência (por exemplo, todo mês)
+
+(Cena simulada, empresa e arquivos fictícios.)
+
+A defAInder ajuda empresas a se preparar para incidentes, do diagnóstico à resposta.
+
+👉 Diagnóstico gratuito no link da bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem cuida do TI da sua empresa.
+
+#ransomware #segurancadainformacao #cibersegurança #empresas #defainder

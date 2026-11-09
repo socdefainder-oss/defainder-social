@@ -1,0 +1,20 @@
+PWA: um aplicativo que abre pelo link, sem precisar de loja de aplicativos. 📲✨
+
+"Baixe o nosso app!"… e o cliente desiste porque o celular está sem espaço. O PWA resolve isso de outro jeito:
+1️⃣ É um site que funciona como aplicativo
+2️⃣ O cliente abre o link e adiciona à tela inicial: o ícone aparece no celular
+3️⃣ Abre em tela cheia, como app, e pode enviar avisos (conforme o aparelho e o navegador)
+4️⃣ Atualizou o sistema? Todo mundo recebe, sem esperar aprovação de loja
+
+E quando não usar? Se o projeto precisa de recursos avançados do celular, o app de loja pode valer mais. Cada caso é um caso.
+
+(Cena simulada, loja fictícia.)
+
+A defAInder DEV desenvolve sites, aplicativos e sistemas sob medida, com segurança desde a primeira linha de código, e ajuda você a escolher o formato certo.
+
+👉 Quer um app sem depender da loja? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e compartilhe com quem está pensando em ter um aplicativo.
+
+#aplicativos #desenvolvimentoweb #sistemas #tecnologia #defainder

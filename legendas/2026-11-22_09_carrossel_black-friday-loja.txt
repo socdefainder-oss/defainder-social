@@ -1,0 +1,18 @@
+Black Friday na loja online: 5 riscos que derrubam vendas (e a confiança) e como se proteger antes da promoção. 🛒🛡️
+
+1️⃣ Fraude com cartão: compra alta de cliente sem histórico, entrega longe do titular, vários cartões tentados. Ative o antifraude e confira à mão o que fugir do padrão.
+2️⃣ Robôs: testam cartões roubados, criam contas falsas, copiam preços e sobrecarregam o site. Use verificação anti-robô, limite de tentativas e firewall de aplicação (WAF).
+3️⃣ Site fora do ar no pico: faça teste de carga antes, use cache e CDN, tenha monitoramento com alerta e um plano B.
+4️⃣ Phishing com a sua marca: configure SPF, DKIM e DMARC, fique de olho em perfis e sites parecidos e diga aos clientes quais são os seus canais oficiais.
+5️⃣ Contas de admin fracas: verificação em duas etapas em tudo, um login por pessoa, remova ex-funcionários e mantenha plataforma e plugins atualizados.
+
+(Pedido, mensagem e registros do post são fictícios.)
+
+A defAInder trabalha com cibersegurança para empresas: avaliamos a sua loja e mostramos o que corrigir primeiro.
+
+Diagnóstico gratuito 👉 link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve este checklist e compartilhe com quem tem loja online.
+
+#cibersegurança #segurancadigital #phishing #empresas #defainder

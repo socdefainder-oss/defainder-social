@@ -1,0 +1,24 @@
+IA para escrever reclamação ou pedido de reembolso: pedido atrasado ou errado, texto pronto em segundos. 📦🤖
+
+Como pedir:
+1️⃣ Fatos: o que comprou, quando, número do pedido e o que deu errado
+2️⃣ O que você quer: troca, reembolso ou entrega, e um prazo para resposta
+3️⃣ Tom firme e educado, e uma lista do que anexar (nota fiscal, comprovante, prints)
+4️⃣ Envie pelo canal oficial da loja e guarde o protocolo
+
+📋 Prompt para copiar:
+"Escreva uma reclamação firme e educada. Fatos: [o que, quando, nº do pedido, o problema]. Quero: [troca/reembolso/entrega] em até [prazo]. Liste o que anexar."
+
+⚠️ Nunca cole CPF ou dados do cartão no chat. Se a IA citar lei ou artigo, confira na fonte oficial antes de enviar: ela pode errar.
+
+Sem solução? Você pode registrar a reclamação no consumidor.gov.br ou no Procon.
+
+(Cena simulada, pedido fictício.)
+
+Na defAInder, a gente usa IA no dia a dia e mostra como usar com cuidado.
+
+👉 Mais dicas de IA: link na bio
+
+💾 Salve para usar quando precisar e mande para quem vai comprar na Black Friday.
+
+#inteligenciaartificial #prompts #dicasdeia #dicas #defainder

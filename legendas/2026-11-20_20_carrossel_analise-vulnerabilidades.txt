@@ -1,0 +1,21 @@
+Análise de vulnerabilidades do seu site: encontrar a porta aberta antes de quem quer entrar. 🔍🛡️
+
+O que verificamos:
+🧱 Atualizações: sistema, plugins, temas e bibliotecas com falhas conhecidas
+🔒 HTTPS e certificado em todas as páginas
+🧰 Cabeçalhos de segurança e configuração do servidor
+🔑 Login e senhas: painel exposto, senha fraca, tentativas sem limite
+📝 Formulários que aceitam o que não deveriam
+📂 Arquivos esquecidos e expostos, como backups e cópias
+👥 Proteção dos dados de clientes
+
+O que você recebe: um relatório com os riscos em ordem de prioridade, explicado sem "tecniquês", com o que corrigir em cada ponto. Se quiser, a nossa equipe faz as correções.
+
+Tudo com a sua autorização e com o escopo definido com você antes de começar.
+
+👉 Comece pelo diagnóstico gratuito: link na bio
+📲 WhatsApp (11) 98137-7200
+
+🔁 Mande para quem cuida do site da sua empresa.
+
+#segurancadigital #segurancadainformacao #cibersegurança #empresas #defainder

@@ -1,0 +1,19 @@
+Estoque que avisa sozinho: chegou no mínimo, o aviso cai no seu WhatsApp, antes de a prateleira ficar vazia. 📦🔔
+
+Como funciona:
+1️⃣ Você define um estoque mínimo para cada produto (ex.: 10 unidades)
+2️⃣ A cada venda, a automação confere a quantidade
+3️⃣ Chegou no mínimo: aviso no WhatsApp com o produto e a quantidade
+4️⃣ Junto vem a sugestão de compra, com base nas vendas recentes, e o rascunho do pedido ao fornecedor
+5️⃣ Você confere e aprova: a decisão continua sua
+
+(Simulação com loja e números fictícios.)
+
+A defAInder automatiza processos com IA e integra loja, estoque e sistemas, para você vender sem ser pego de surpresa.
+
+Quer um estoque que avisa sozinho? 👉 link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem ainda confere o estoque na planilha.
+
+#automacao #automacaodeprocessos #produtividade #empresas #defainder
