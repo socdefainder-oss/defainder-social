@@ -32,7 +32,7 @@ Configuração atual (feita em 04.11.2026). Não é preciso ter uma Página do F
 2. Adicione o item em `agenda.json`:
    ```json
    {"id": "2026-11-07_09_carrossel_backup", "quando": "2026-11-07 09:00", "tipo": "carrossel",
-    "origem": ["Dia 07.11/Posts/09h_backup_01.png", "Dia 07.11/Posts/09h_backup_02.png"],
+    "origem": ["2026-11 Novembro/Dia 07.11/Posts/09h_backup_01.png", "2026-11 Novembro/Dia 07.11/Posts/09h_backup_02.png"],
     "legenda": "legendas/2026-11-07_09_carrossel_backup.txt", "comentario": "Salve para não esquecer."}
    ```
    - `tipo` pode ser `reel`, `imagem` ou `carrossel` (de 2 a 10 imagens).

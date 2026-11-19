@@ -24,7 +24,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 AQUI = Path(__file__).resolve().parent
-ORIGEM = AQUI.parent                      # pasta Instagram (onde ficam "Dia XX.11/...")
+ORIGEM = AQUI.parent                      # pasta Instagram (origem = "AAAA-MM Mês/Dia DD.MM/...")
 MIDIA = AQUI / "midia"
 BRT = timezone(timedelta(hours=-3))
 VER = os.environ.get("GRAPH_VERSION", "v23.0")
