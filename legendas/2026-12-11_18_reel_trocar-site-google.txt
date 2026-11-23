@@ -1,0 +1,21 @@
+Trocar de site sem perder o Google: o cuidado que muita empresa esquece. 🌐🔎
+
+Antes, durante e depois da troca:
+1️⃣ Liste as páginas antigas que mais recebem visitas (o Google Search Console mostra)
+2️⃣ Nas páginas importantes, mantenha o mesmo endereço sempre que der
+3️⃣ O que mudar de endereço ganha um redirecionamento 301, do link antigo para a página nova equivalente
+4️⃣ Evite mandar tudo para a página inicial
+5️⃣ No dia da troca, envie o sitemap novo no Search Console
+6️⃣ Acompanhe os erros 404 nas semanas seguintes
+
+Mesmo com tudo certo, as posições podem oscilar por um tempo. Sem redirecionamento, quem clica na busca cai numa página de erro.
+
+(Simulação: empresa, endereços e números fictícios.)
+
+A defAInder desenvolve sites, sistemas e apps, com segurança desde a primeira linha de código, e cuida da manutenção depois do lançamento.
+👉 Vai trocar de site em 2027? Peça uma análise gratuita: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem está fazendo o site novo da empresa.
+
+#sites #seo #desenvolvimentoweb #empresas #defainder

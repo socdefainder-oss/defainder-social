@@ -1,0 +1,20 @@
+Plano de continuidade: se tudo parar amanhã, a sua empresa sabe quem faz o quê? 🧭🛡️
+
+O que o plano precisa ter:
+1️⃣ O que é crítico: os processos que não podem parar e quanto tempo cada um aguenta
+2️⃣ Quem faz o quê: quem decide, quem aciona o suporte, quem fala com clientes, e os substitutos
+3️⃣ Backup e restauração: cópia fora da rede, ordem de restauração e teste com tempo medido
+4️⃣ Contatos: TI, fornecedores, banco, contador e seguro, numa lista guardada fora do sistema
+5️⃣ Comunicação com clientes: mensagem pronta e canal alternativo
+6️⃣ Teste anual: simule a parada pelo menos uma vez por ano e corrija o que travou
+
+(Prazos e mensagem dos slides são exemplos: defina os da sua empresa.)
+
+A defAInder atua com diagnóstico, resposta a incidentes e monitoramento Easy-SOC 24/7.
+
+👉 Diagnóstico gratuito no link da bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para o sócio ou gestor que precisa ver isso.
+
+#cibersegurança #segurancadainformacao #segurancadigital #empresas #defainder

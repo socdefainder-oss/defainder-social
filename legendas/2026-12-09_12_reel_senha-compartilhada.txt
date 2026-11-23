@@ -1,0 +1,20 @@
+Senha compartilhada na empresa: todo mundo usa a mesma, e quem já saiu ainda sabe. 🔑⚠️
+
+Como resolver:
+1️⃣ Uma conta por pessoa, com nome e só o acesso que ela precisa
+2️⃣ Cofre de senhas da empresa: compartilhe acessos por ele, nunca por mensagem ou post-it
+3️⃣ Verificação em duas etapas (MFA): sem o código, a senha sozinha não entra
+4️⃣ Alguém saiu da equipe? Desative a conta no mesmo dia e troque os acessos que a pessoa conhecia
+
+Com conta individual, o sistema registra quem fez o quê. Senha de todos é senha de ninguém.
+
+(Cena simulada, empresa e nomes fictícios.)
+
+A defAInder ajuda empresas a organizar acessos e se proteger, do diagnóstico à resposta a incidentes.
+
+👉 Diagnóstico gratuito no link da bio
+📲 WhatsApp (11) 98137-7200
+
+🔁 Compartilhe com quem ainda guarda a senha num papel colado no monitor.
+
+#segurancadigital #cibersegurança #segurancadainformacao #empresas #defainder

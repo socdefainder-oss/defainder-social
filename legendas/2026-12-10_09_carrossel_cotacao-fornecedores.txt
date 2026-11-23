@@ -1,0 +1,19 @@
+Cotação de fornecedores automática: o pedido sai para todos de uma vez e as respostas viram uma tabela só. 📦📊
+
+Como funciona:
+1️⃣ Você preenche o pedido uma vez: itens, quantidades e prazo para responder
+2️⃣ A automação envia para os fornecedores cadastrados, por e-mail ou WhatsApp
+3️⃣ As respostas entram numa tabela comparativa: preço, prazo de entrega e condição de pagamento
+4️⃣ Quem não respondeu recebe lembrete, e o seu time recebe alerta antes do prazo acabar
+✅ A decisão continua sendo sua: qualidade, histórico e confiança também pesam
+
+(Valores e fornecedores dos slides são fictícios, só para exemplo.)
+
+A defAInder cria automações sob medida com n8n, integradas ao e-mail e ao WhatsApp da sua empresa.
+
+👉 Descubra o que dá para automatizar no seu setor de compras: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem cuida das compras na sua empresa.
+
+#automacao #n8n #automacaodeprocessos #empresas #defainder

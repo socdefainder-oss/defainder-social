@@ -1,0 +1,19 @@
+Rotas e entregas automáticas: menos entregador perdido e menos cliente ligando "cadê meu pedido?". 🛵📦
+
+Como funciona:
+1️⃣ Os pedidos do dia saem do sistema e viram uma lista de entregas com endereço completo
+2️⃣ Uma ferramenta de rotas organiza a ordem das paradas, e o entregador abre tudo no celular
+3️⃣ Saiu para entrega? O cliente recebe o aviso no WhatsApp, sem ninguém digitar
+4️⃣ Na entrega, a foto vira comprovante, salvo no sistema e enviado ao cliente
+5️⃣ Deu problema? O pedido volta para a lista e a equipe é avisada na hora
+
+(Cena simulada, empresa e nomes fictícios.)
+
+A defAInder cria automações com n8n e integra o seu sistema com a API oficial do WhatsApp.
+
+👉 Descubra o que dá para automatizar na sua empresa: link na bio
+📲 WhatsApp (11) 98137-7200
+
+🔁 Compartilhe com quem cuida das entregas da sua empresa.
+
+#automacao #n8n #automacaodeprocessos #empresas #defainder

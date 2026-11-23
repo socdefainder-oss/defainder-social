@@ -1,0 +1,18 @@
+Áudio longo no WhatsApp da empresa? A automação transforma em texto, resumo e tarefa. 🎙️➡️📝
+
+Como funciona:
+1️⃣ O áudio chega pela API oficial do WhatsApp e é transcrito.
+2️⃣ A IA resume em 3 linhas: quem é, o que quer e qual a urgência.
+3️⃣ O pedido vira uma tarefa no seu sistema, com responsável e prazo.
+4️⃣ Você decide: lê o resumo, ouve o áudio original se precisar e responde.
+
+⚠️ Áudio de cliente tem dado pessoal: acesso só de quem atende e guarde só o necessário (LGPD).
+
+A defAInder cria automações com n8n e IA, integradas ao WhatsApp e aos sistemas que a sua empresa já usa.
+
+👉 Quer os áudios da sua empresa resumidos assim? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+🔁 Mande para quem passa o dia ouvindo áudio de cliente.
+
+#automacao #inteligenciaartificial #whatsappbusiness #empresas #defainder

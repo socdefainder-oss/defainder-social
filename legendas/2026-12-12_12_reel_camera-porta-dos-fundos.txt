@@ -1,0 +1,24 @@
+Câmera e impressora da empresa: a porta dos fundos que quase ninguém tranca. 📹🖨️
+
+Na simulação do vídeo, a câmera do escritório continuava com a senha de fábrica, e alguém assistia de fora.
+
+Por que isso acontece:
+🔓 Câmera, impressora, gravador de vídeo e roteador são pequenos computadores ligados à rede
+📖 Muitos saem da caixa com usuário e senha padrão, que costumam estar no manual, publicado na internet
+⚙️ Sem atualização, falhas já conhecidas continuam abertas
+🚪 Na mesma rede dos computadores, o aparelho vira caminho para dentro da empresa
+
+Checklist:
+✅ Troque a senha padrão de cada equipamento
+✅ Atualize o sistema (firmware) do fabricante
+✅ Coloque câmeras e impressoras numa rede separada dos computadores
+✅ Desligue o acesso remoto que ninguém usa
+
+A defAInder faz análise de vulnerabilidades e monitoramento Easy-SOC 24/7 para pequenas e médias empresas.
+
+👉 Diagnóstico gratuito no link da bio
+📲 WhatsApp (11) 98137-7200
+
+🔁 Compartilhe com quem cuida da TI da sua empresa.
+
+#cibersegurança #segurancadainformacao #hacker #empresas #defainder

@@ -1,0 +1,17 @@
+Token do banco: o que é esse código e por que ninguém de verdade vai pedir ele para você. 🔑
+
+Em 30 segundos:
+🔢 Token é uma senha temporária: muda depois de pouco tempo e serve para confirmar uma operação
+📱 Ele chega por SMS, aparece no app do banco ou num token físico (aparelhinho com visor)
+🔐 É a segunda chave: a senha é o que você sabe; o código prova que o celular está com você
+🚫 O golpe: alguém liga ou manda mensagem "da central do banco" e pede o código. Com ele, confirma uma transação no seu nome
+✅ A regra: o código é só para você digitar. Nunca leia nem envie por telefone ou WhatsApp. Na dúvida, desligue e ligue você para o número que está no cartão
+
+A defAInder trabalha com cibersegurança e explica tecnologia sem complicar, para você não cair em golpe.
+
+👉 Mais dicas no perfil e no link da bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem sempre atende essas ligações.
+
+#golpebancario #segurancadigital #dicasdeseguranca #tecnologia #defainder

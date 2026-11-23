@@ -1,0 +1,19 @@
+Controle de validade automático: o alerta chega antes do produto ir para o lixo. 🥛📅
+
+Como funciona:
+1️⃣ Na entrada da mercadoria, cada lote é cadastrado com a sua validade (pela nota, pelo código ou por um formulário no celular)
+2️⃣ Você define quantos dias antes quer o aviso, por tipo de produto
+3️⃣ A lista de vencimentos próximos chega sozinha no WhatsApp ou e-mail da equipe
+4️⃣ Para o que está perto de vencer, a automação sugere uma ação: promoção, mudar de lugar na gôndola, avisar o turno
+✅ O desconto e a decisão continuam sendo seus
+
+(Produtos, lotes e quantidades dos slides são fictícios, só para exemplo.)
+
+A defAInder cria automações sob medida com n8n, ligadas ao seu estoque, planilha ou sistema.
+
+👉 Descubra o que dá para automatizar no seu estoque: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem cuida do estoque na sua empresa.
+
+#automacao #n8n #automacaodeprocessos #empresas #defainder

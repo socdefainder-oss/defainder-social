@@ -1,0 +1,18 @@
+Contrato automático: chega de copiar o contrato do cliente anterior e mandar com o nome errado. 📄🤖
+
+Como funciona:
+1️⃣ Os dados do cliente vêm do formulário que ele preencheu ou do seu CRM
+2️⃣ A automação preenche o modelo de contrato campo por campo: nome, documento, valor, prazo
+3️⃣ Sai um PDF pronto, que segue para assinatura eletrônica
+4️⃣ Antes do envio, alguém da equipe revisa e aprova: a automação preenche, a pessoa confere
+
+(Cena simulada, empresas e dados fictícios.)
+
+A defAInder cria automações e agentes de IA sob medida, integrados aos sistemas que a sua empresa já usa.
+
+👉 Quer contratos saindo prontos? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve e mande para quem prepara os contratos na sua empresa.
+
+#automacao #automacaodeprocessos #transformacaodigital #empresas #defainder

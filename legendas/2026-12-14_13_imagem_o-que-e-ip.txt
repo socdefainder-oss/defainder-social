@@ -1,0 +1,16 @@
+O que é IP? É o "endereço" da sua conexão na internet, explicado em 30 segundos. 🌐📍
+
+✅ IP público: vem da operadora e é o que os sites veem
+✅ IP local: o "número do quarto" de cada aparelho, só dentro da sua rede
+✅ Por que os sites veem: para saber para onde mandar a resposta. Dá uma ideia da operadora e da região aproximada, não do seu nome nem da sua rua
+✅ VPN, em uma linha: os sites passam a ver o IP do servidor da VPN, não o seu. Não deixa você invisível nem protege de golpe
+
+(Os IPs da imagem são de exemplo.)
+
+A defAInder explica tecnologia de um jeito simples e trabalha com cibersegurança para ajudar a proteger a sua vida digital.
+
+👉 Mais conteúdos no link da bio
+
+📤 Salve e mande para quem sempre pergunta isso para você.
+
+#aprendatecnologia #dicasdetecnologia #curiosidades #tecnologia #defainder

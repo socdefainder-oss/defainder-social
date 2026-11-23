@@ -1,0 +1,24 @@
+Agente de IA no atendimento, na prática: ele não só responde, ele resolve, e sabe a hora de chamar uma pessoa. 🤖💬
+
+O que ele faz:
+💬 Responde dúvidas frequentes com as informações que a sua empresa aprovou
+🗄️ Consulta o sistema: pedido, ordem de serviço, estoque, cadastro
+📅 Agenda horários e envia a confirmação
+🎧 Encaminha para a equipe, com o resumo da conversa
+
+Onde ele para:
+✕ Descontos e negociações fora da regra
+✕ Reembolso, cancelamento e exceções
+✕ Assuntos sensíveis e reclamações sérias
+✕ Inventar resposta quando não sabe
+
+Supervisão: base de respostas revisada, opção "falar com atendente" sempre, registro das conversas e só os dados necessários (LGPD).
+
+A defAInder cria agentes de IA e chatbots com a API oficial do WhatsApp, integrados aos seus sistemas.
+
+👉 Comece pelo diagnóstico gratuito: link na bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve e mande para quem cuida do atendimento.
+
+#agentesdeia #inteligenciaartificial #chatbot #empresas #defainder

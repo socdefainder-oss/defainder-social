@@ -1,0 +1,21 @@
+IA para resumir vídeos longos: aula, palestra ou reunião viram resumo, tópicos e perguntas para revisar. 🎓✨
+
+Passo a passo:
+1️⃣ Pegue a transcrição: muitas plataformas de vídeo e de reunião mostram o texto da fala
+2️⃣ Cole num assistente de IA e peça o resumo, os tópicos e as perguntas
+3️⃣ Se a transcrição tiver os tempos, peça a minutagem de cada tópico e volte direto no trecho
+⚠️ Confira no vídeo os números, nomes e decisões: a IA pode errar ou resumir demais
+🔒 Não cole conteúdo sigiloso da empresa num assistente público
+
+📝 Prompt para copiar:
+"Com base nesta transcrição, resuma em 10 linhas, liste os tópicos principais com a minutagem e crie 5 perguntas para eu revisar o conteúdo."
+
+(Cena simulada, vídeos e resumo fictícios.)
+
+A defAInder cria agentes de IA e automações para empresas, com segurança e privacidade desde o início.
+
+👉 Mais dicas de IA no link da bio
+
+💾 Salve e teste no próximo vídeo longo. Mande para quem vive com aula gravada acumulada.
+
+#inteligenciaartificial #dicasdeia #produtividade #dicas #defainder

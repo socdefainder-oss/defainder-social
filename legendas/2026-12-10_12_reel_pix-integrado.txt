@@ -1,0 +1,19 @@
+Pix integrado no site ou app: o cliente paga e o pedido dá baixa sozinho, sem comprovante pelo WhatsApp. ⚡🛒
+
+Como funciona:
+1️⃣ Na hora de pagar, o site gera o QR Code e o Pix copia e cola com o valor certo do pedido
+2️⃣ O cliente paga no app do banco, sem digitar valor nem chave
+3️⃣ O sistema recebe a confirmação do pagamento e dá baixa no pedido automaticamente
+4️⃣ O cliente vê o pedido aprovado e a sua equipe recebe o aviso para separar
+⚠️ Print de comprovante não confirma pagamento: pode ser editado ou falso
+
+(Cena simulada, loja, pedidos e valores ilustrativos.)
+
+A defAInder desenvolve sites, apps e sistemas sob medida, com segurança desde a primeira linha de código.
+
+👉 Quer o Pix integrado no seu site ou app? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem ainda confere comprovante na mão.
+
+#sites #aplicativos #sistemas #empreendedorismo #defainder

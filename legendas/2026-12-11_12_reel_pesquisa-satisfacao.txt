@@ -1,0 +1,19 @@
+Pesquisa de satisfação automática: saiba na hora quando um cliente sai insatisfeito. 📊💬
+
+Como funciona:
+1️⃣ Logo depois da entrega ou do atendimento, a pesquisa sai sozinha pelo WhatsApp ou por e-mail
+2️⃣ Curta: uma nota de 0 a 10 e um espaço para comentar
+3️⃣ Nota baixa? O gestor recebe um alerta na hora, com o nome do cliente e o que aconteceu
+4️⃣ Alguém liga no mesmo dia, ouve e resolve
+5️⃣ Todo mês, um painel com as notas e os motivos que se repetem
+6️⃣ Com respeito à LGPD: só para quem autorizou, com opção de sair
+
+(Simulação: loja, cliente e números fictícios.)
+
+A defAInder cria automações com n8n e chatbots com a API oficial do WhatsApp, sob medida para o seu processo.
+👉 Quer saber o que o seu cliente pensa? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para o sócio que cuida do atendimento.
+
+#automacao #automacaodeprocessos #whatsappbusiness #empresas #defainder
