@@ -1,0 +1,17 @@
+Aprovação de despesas automática: chega de envelope de notinhas no fim do mês. 🧾📲
+
+Como funciona:
+1️⃣ O funcionário tira foto do recibo e envia, pelo WhatsApp ou por um aplicativo
+2️⃣ O sistema lê o valor e a data e sugere a categoria
+3️⃣ O gestor recebe um aviso no celular e aprova com um toque (ou pede mais informação)
+4️⃣ Aprovada, a despesa entra no financeiro com a foto do recibo anexada
+
+(Simulação: empresa, pessoas e valores fictícios.)
+
+A defAInder cria automações sob medida com n8n e IA, conectadas ao que a sua empresa já usa.
+👉 Quer automatizar as despesas da sua empresa? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+🔁 Mande para quem fecha o financeiro no fim do mês.
+
+#automacao #automacaodeprocessos #n8n #empresas #defainder

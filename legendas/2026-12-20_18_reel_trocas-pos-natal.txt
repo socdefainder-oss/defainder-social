@@ -1,0 +1,19 @@
+Trocas pós-Natal no automático: o WhatsApp da loja não precisa virar uma fila no dia 26. 🎁🔁
+
+Como funciona:
+1️⃣ O cliente pede a troca pelo WhatsApp ou pelo site
+2️⃣ Recebe um formulário com número do pedido e foto do produto
+3️⃣ A automação confere a regra de prazo da sua loja
+4️⃣ Aprovou? Sai a etiqueta de envio ou o agendamento na loja
+5️⃣ O status chega sozinho: recebido, em análise, troca liberada
+6️⃣ Casos fora da regra vão para uma pessoa da equipe decidir
+
+(Simulação: loja e pedidos fictícios.)
+
+A defAInder cria automações com n8n e chatbots com a API oficial do WhatsApp, sob medida para o seu processo.
+👉 Quer as trocas de fim de ano no automático? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem cuida do atendimento.
+
+#automacao #automacaodeprocessos #whatsappbusiness #empresas #defainder

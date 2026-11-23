@@ -1,0 +1,19 @@
+Quanto custa automatizar processos? Depende, e aqui está do que depende. ⚙️
+
+5 coisas que definem o preço de uma automação:
+1️⃣ Sistemas integrados: quantas pontas precisam conversar (e se todas têm API)
+2️⃣ Complexidade das regras: caminho único ou cheio de exceções
+3️⃣ Volume: poucos pedidos por dia ou milhares por hora
+4️⃣ IA ou não: regra fixa resolve muita coisa; IA entra onde precisa interpretar texto, áudio ou documentos
+5️⃣ Manutenção: onde o fluxo roda, alerta de falha e ajustes quando os sistemas mudam
+
+Por onde começar? Pelo processo que mais dói: a tarefa repetida todo dia, o ponto onde mais acontece erro, a etapa que faz o cliente esperar. Uma automação pequena no ar ensina mais que um projeto gigante no papel.
+
+Na defAInder, montamos automações com n8n e agentes de IA com escopo claro antes de começar.
+
+👉 Diagnóstico gratuito: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve para levar na próxima conversa sobre orçamento.
+
+#automacao #automacaodeprocessos #n8n #empresas #defainder

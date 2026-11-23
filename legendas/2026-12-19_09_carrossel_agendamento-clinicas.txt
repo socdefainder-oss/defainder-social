@@ -1,0 +1,20 @@
+Sistema de agendamento para clínicas: menos telefone tocando, menos falta e menos horário vazio. 🩺📅
+
+O que um bom sistema faz sozinho:
+1️⃣ Agenda por profissional: cada um com seus horários, salas e tipos de atendimento
+2️⃣ Confirmação e lembrete automáticos: o paciente responde e a agenda se atualiza
+3️⃣ Lista de espera: cancelou, o próximo da fila é avisado na hora
+4️⃣ Painel para a recepção acompanhar e ajustar quando precisar
+
+E o que fica de fora: agenda não é prontuário. Diagnóstico, exames e evolução ficam no sistema próprio da clínica, e a mensagem de lembrete não precisa dizer o motivo da consulta.
+
+🔒 Dado de saúde é dado pessoal sensível na LGPD. Por isso: login próprio para cada pessoa, verificação em duas etapas, cada perfil vendo só o que precisa e registro de acessos.
+
+A defAInder desenvolve sites, apps e sistemas sob medida, com segurança e LGPD desde a primeira linha de código.
+
+👉 Fale com a gente pelo link da bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem cuida da agenda da sua clínica.
+
+#sistemas #aplicativos #desenvolvimento #empresas #defainder

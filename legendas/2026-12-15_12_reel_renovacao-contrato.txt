@@ -1,0 +1,18 @@
+Lembrete automático de renovação de contrato: o cliente não pode descobrir que venceu antes da sua equipe. 📄🔔
+
+Como funciona a automação:
+1️⃣ Contratos, assinaturas e garantias cadastrados com a data de vencimento (planilha, sistema ou CRM)
+2️⃣ Todo dia a automação confere as datas e separa o que está perto de vencer
+3️⃣ Com a antecedência que você escolher, a equipe recebe o aviso com cliente, contrato e valor
+4️⃣ O cliente recebe um lembrete por e-mail ou pelo WhatsApp que ele autorizou, com o link para renovar
+
+Resultado: a conversa de renovação começa antes do vencimento, e não depois que o cliente foi embora.
+
+A defAInder cria automações com n8n e integra com os sistemas que você já usa.
+
+👉 Descubra o que dá para automatizar na sua empresa: link na bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve e mande para quem cuida dos contratos.
+
+#automacao #n8n #automacaodeprocessos #empresas #defainder

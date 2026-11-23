@@ -1,0 +1,18 @@
+Assinatura eletrônica + fluxo de aprovação: o contrato que anda sozinho. ✍️⚙️
+
+Chega de contrato parado na mesa esperando assinatura. Com automação:
+1️⃣ O documento é gerado com os dados do cliente, puxados do pedido ou do CRM
+2️⃣ Entra num fluxo de aprovação: o gestor recebe o aviso e aprova com um toque
+3️⃣ Aprovado, segue sozinho para a assinatura eletrônica, e cada parte assina de onde estiver
+4️⃣ Assinado, é arquivado na pasta certa e todo mundo recebe o aviso de concluído
+⏰ Esqueceram? Lembrete automático, e um painel com o status de cada contrato
+
+A automação faz o caminho. A decisão de aprovar continua com a sua equipe.
+
+A defAInder cria automações com n8n e agentes de IA sob medida para o fluxo da sua empresa.
+👉 Descubra o que dá para automatizar: link na bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve e mande para quem vive correndo atrás de assinatura.
+
+#automacao #automacaodeprocessos #n8n #empresas #defainder

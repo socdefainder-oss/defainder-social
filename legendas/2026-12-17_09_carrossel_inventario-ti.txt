@@ -1,0 +1,19 @@
+Inventário de TI: você sabe quantos computadores sua empresa tem? 💻🔎
+
+Não dá para proteger o que você não sabe que existe. O inventário é a base de toda segurança.
+
+O que listar:
+1️⃣ Equipamentos: computadores, notebooks, celulares da empresa, roteador e impressora
+2️⃣ Contas: e-mail, sistemas, redes sociais, banco e acessos de administrador
+3️⃣ Softwares: programas instalados e serviços na nuvem
+4️⃣ Licenças: quantas são, em nome de quem e quando vencem
+
+Para cada item: quem usa, onde fica e se está atualizado. Conta sem dono? Desative. Sistema sem atualização? Vai para o topo da lista.
+
+A defAInder faz análise de vulnerabilidades e mostra o que está exposto na sua empresa e o que corrigir primeiro.
+👉 Diagnóstico gratuito no link da bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve e mande para o gestor da sua empresa.
+
+#cibersegurança #segurancadainformacao #segurancadigital #empresas #defainder
