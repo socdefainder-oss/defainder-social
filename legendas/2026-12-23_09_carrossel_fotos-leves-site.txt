@@ -1,0 +1,17 @@
+Site lento no celular? Comece pelas fotos e vídeos: 5 ajustes para deixar a página leve. 🌐📷
+
+Imagem pesada é uma das causas mais comuns de página lenta. O que fazer:
+1️⃣ Formato moderno: WebP ou AVIF no lugar de JPG e PNG (PNG só para logo e ícone com fundo transparente)
+2️⃣ Tamanho certo: nada de subir a foto original da câmera; gere versões para celular e computador
+3️⃣ Compressão antes de publicar: o olho não vê a diferença, o arquivo fica menor
+4️⃣ Carregamento sob demanda: as fotos de baixo só carregam quando o cliente rola a página
+5️⃣ Vídeo hospedado fora: suba numa plataforma de vídeo e incorpore no site, com uma capa leve
+
+A defAInder desenvolve e mantém sites com desempenho e segurança desde a primeira linha de código.
+
+👉 Peça uma análise gratuita do seu site: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve para revisar o seu site e mande para quem cuida dele.
+
+#sites #desenvolvimentoweb #seo #empresas #defainder

@@ -1,0 +1,24 @@
+Backup: nuvem ou HD externo? A resposta certa é: os dois, combinados. 💾☁️
+
+HD externo
+✅ Restaura rápido e não depende de internet
+⚠️ Se fica sempre conectado, um ataque pode alcançar ele também
+
+Nuvem
+✅ Cópia fora do escritório, a salvo de roubo ou incêndio no local
+⚠️ Pasta só sincronizada pode copiar o estrago. Prefira backup com histórico de versões
+
+O ideal:
+1️⃣ Uma cópia local, para voltar rápido
+2️⃣ Uma cópia fora do local e desconectada, que o ataque não alcança
+3️⃣ Teste de restauração: recupere alguns arquivos e confira se abrem e estão completos
+
+(Simulação: escritório, arquivos e mensagem fictícios.)
+
+A defAInder ajuda empresas a se protegerem: Easy-SOC 24/7, análise de vulnerabilidades e resposta a incidentes.
+👉 Diagnóstico gratuito: link na bio
+📲 WhatsApp (11) 98137-7200
+
+🔁 Mande para quem guarda o backup num HD ligado o tempo todo.
+
+#ransomware #segurancadigital #cibersegurança #empresas #defainder

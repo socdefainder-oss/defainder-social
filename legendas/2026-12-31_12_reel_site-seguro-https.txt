@@ -1,0 +1,15 @@
+Site seguro: o cliente fecha a página quando o navegador avisa "não seguro". 🔒🌐
+
+O checklist do site seguro:
+1️⃣ HTTPS com o cadeado em todas as páginas e certificado sempre em dia (certificado vencido também gera aviso)
+2️⃣ Sistema (CMS), plugins e tema atualizados: muitas atualizações corrigem falhas conhecidas
+3️⃣ Backup automático, guardado fora do servidor, e restauração testada
+4️⃣ Formulários protegidos, com verificação contra robôs e envio seguro dos dados
+
+A defAInder desenvolve sites com segurança desde a primeira linha de código e cuida da manutenção do seu site.
+👉 Peça uma análise gratuita do seu site: link na bio
+📲 WhatsApp (11) 98137-7200
+
+📤 Mande para quem cuida do site da sua empresa.
+
+#sites #desenvolvimentoweb #presencadigital #empresas #defainder

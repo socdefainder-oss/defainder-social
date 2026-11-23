@@ -1,0 +1,20 @@
+Agentes de IA para pequenas e médias empresas: o que fazem além do chatbot. 🤖⚙️
+
+💬 O chatbot responde dúvidas comuns.
+🤖 O agente consulta sistemas, executa tarefas e chama uma pessoa quando precisa.
+
+Exemplos por área:
+🎧 Atendimento: consulta o pedido e responde o status
+📈 Vendas: faz as primeiras perguntas e agenda a conversa com o vendedor
+💳 Financeiro: envia segunda via e lembra do vencimento
+📦 Estoque: avisa o item acabando e sugere o pedido de compra para aprovação
+
+Com segurança: acesso mínimo, limites definidos, tudo registrado e uma pessoa assume quando foge da regra.
+
+A defAInder cria agentes de IA sob medida, chatbots com a API oficial do WhatsApp e automações n8n.
+👉 Em 2027, deixe o repetitivo com um agente: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem quer começar o ano com mais tempo.
+
+#agentesdeia #inteligenciaartificial #automacao #empreendedorismo #defainder

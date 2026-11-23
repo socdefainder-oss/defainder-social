@@ -1,0 +1,19 @@
+Metas acompanhadas automaticamente: descubra no mesmo dia, não no dia 30. 📊🔔
+
+Como funciona:
+1️⃣ Vendas, atendimentos e produção do dia saem dos sistemas que a equipe já usa, sem digitar planilha
+2️⃣ Tudo cai num painel: meta do mês, quanto já foi feito e o ritmo por dia para chegar lá
+3️⃣ No fim do dia, o resumo chega no WhatsApp do gestor
+4️⃣ Saiu do ritmo? Chega um alerta na hora, mostrando qual indicador caiu
+
+Resultado: dá tempo de corrigir ainda no começo do mês.
+
+(Simulação: empresa, números e mensagens fictícios.)
+
+A defAInder cria automações com n8n, painéis e agentes de IA conectados ao que você já usa.
+👉 Fale com a gente: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve para planejar 2027 e mande para quem fecha o mês na planilha.
+
+#automacao #automacaodeprocessos #n8n #empreendedorismo #defainder

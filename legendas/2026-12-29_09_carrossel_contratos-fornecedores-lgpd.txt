@@ -1,0 +1,22 @@
+LGPD e contratos com fornecedores: quem trata dados por você também precisa estar no contrato. 📄🔒
+
+Contabilidade, sistema na nuvem, agência, suporte de TI: na LGPD, eles são operadores, e sua empresa é a controladora.
+
+5 cláusulas para revisar antes de renovar:
+1️⃣ Finalidade: os dados só para o serviço contratado, seguindo as suas instruções
+2️⃣ Segurança: medidas técnicas, acesso restrito e subcontratação só com autorização
+3️⃣ Sigilo: equipe com dever de confidencialidade, inclusive depois do contrato
+4️⃣ Aviso de incidente: comunicar você sem demora, no prazo combinado
+5️⃣ Fim do contrato: dados devolvidos ou eliminados, com confirmação por escrito
+
+Na Lei 13.709/2018, em resumo: controlador e operador mantêm registro das operações (art. 37), o operador segue as instruções do controlador (art. 39) e quem causa dano responde por ele, inclusive o operador que descumpre a lei ou as instruções (art. 42).
+
+Resumo informativo: para redigir as cláusulas, conte com o seu jurídico.
+
+A defAInder cuida da parte técnica: segurança, acessos e resposta a incidentes.
+👉 Diagnóstico grátis: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve para a renovação de contratos e mande para quem cuida dos fornecedores.
+
+#lgpd #protecaodedados #compliance #empresas #defainder

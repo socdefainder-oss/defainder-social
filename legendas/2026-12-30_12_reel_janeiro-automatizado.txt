@@ -1,0 +1,20 @@
+Automação para a primeira semana de janeiro: deixe tudo programado antes da volta. ⚙️📅
+
+Simulação: segunda-feira, volta do recesso. Cobrança atrasada, cliente sem resposta, relatório de dezembro por fazer. 😵
+
+Com automação, já está tudo andando:
+💳 Cobranças: lembrete antes do vencimento e segunda via pelo WhatsApp
+🔔 Renovações: aviso para quem tem contrato vencendo, na data certa
+📊 Relatório de dezembro: chega pronto no seu e-mail
+🎉 Boas-vindas ao ano: mensagem programada com os horários de atendimento
+🗓️ Agenda da semana: tarefas organizadas, cada uma com responsável
+
+(Simulação: empresa, clientes e telas fictícios.)
+
+A defAInder cria automações com n8n, agentes de IA e a API oficial do WhatsApp, ligando o que sua empresa já usa.
+👉 Quer janeiro no controle? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+🔁 Mande para quem volta do recesso já atrasado.
+
+#automacao #n8n #automacaodeprocessos #empresas #defainder

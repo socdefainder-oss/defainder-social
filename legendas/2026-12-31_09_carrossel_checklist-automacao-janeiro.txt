@@ -1,0 +1,18 @@
+Automação para janeiro: 6 rotinas para deixar rodando sozinhas em 2027. ⚙️📅
+
+1️⃣ Cobranças: lembrete antes do vencimento, aviso no dia e baixa automática
+2️⃣ Renovações: contratos, planos e assinaturas avisados com antecedência
+3️⃣ Relatórios: vendas, caixa e atendimentos enviados no horário que você escolher
+4️⃣ Follow-ups: orçamento sem resposta ganha retorno no tempo certo
+5️⃣ Atendimento inicial: chatbot ou agente de IA responde e encaminha para a pessoa certa
+6️⃣ Alertas: estoque baixo, pagamento recusado, site fora do ar
+
+Como escolher a primeira: um processo que se repete, tem regra clara, usa dados que já estão no digital e custa caro quando falha. Automatize, meça por um mês e só depois parta para o próximo.
+
+A defAInder cria automações com n8n, agentes de IA e chatbot no WhatsApp integrados aos seus sistemas.
+👉 Diagnóstico gratuito no link da bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve para planejar janeiro com a sua equipe.
+
+#automacao #automacaodeprocessos #n8n #empresas #defainder

@@ -1,0 +1,18 @@
+Política de senhas para 2027: 5 regras que cabem em 1 página. 🔐
+
+Política de senhas não precisa de 10 páginas que ninguém lê. Precisa ser simples para a equipe seguir:
+
+1️⃣ Frases longas no lugar de trocas forçadas: troque quando houver suspeita de vazamento, não por calendário
+2️⃣ Gerenciador de senhas: uma senha diferente e gerada para cada sistema
+3️⃣ MFA obrigatório em e-mail, banco, sistemas na nuvem e contas de administrador
+4️⃣ Nada de senha compartilhada: cada pessoa com o seu login; precisa dividir, use o cofre com permissão
+5️⃣ Vazou? Troque na hora, encerre sessões, confira o MFA e avise a TI
+
+A defAInder ajuda empresas a colocar essas regras em prática, com diagnóstico, configuração e monitoramento pelo Easy-SOC 24/7.
+
+👉 Diagnóstico gratuito: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem cuida da TI na sua empresa.
+
+#cibersegurança #segurancadainformacao #dicasdeseguranca #empresas #defainder

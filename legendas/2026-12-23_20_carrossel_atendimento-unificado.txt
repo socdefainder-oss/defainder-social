@@ -1,0 +1,16 @@
+Atendimento unificado: Instagram, WhatsApp e site numa caixa só. 💬🤖
+
+Mensagem que cai no canal que ninguém está olhando vira cliente perdido. Como funciona:
+1️⃣ Uma caixa de entrada para todos os canais, com dono e status em cada conversa
+2️⃣ Histórico do cliente: quem atende vê o que já foi dito no direct, no site e no WhatsApp
+3️⃣ A IA responde o básico: horário, preços, catálogo e status do pedido
+4️⃣ A equipe assume negociação, reclamação e casos fora do roteiro, já com o histórico completo
+
+A defAInder monta o atendimento: WhatsApp pela API oficial, agente de IA treinado com as respostas da sua empresa, automações com n8n e segurança desde o início.
+
+👉 Quer centralizar o atendimento? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem cuida do atendimento da empresa.
+
+#chatbot #agentesdeia #whatsappbusiness #empresas #defainder

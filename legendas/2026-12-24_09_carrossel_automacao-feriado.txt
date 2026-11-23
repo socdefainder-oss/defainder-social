@@ -1,0 +1,20 @@
+Automação no feriado: a equipe descansa e a empresa continua respondendo. 🎄🤖
+
+5 frentes que podem rodar sozinhas no recesso:
+📦 Pedidos: confirmação, baixa no estoque e aviso de status
+💬 Respostas: horário, prazo, segunda via e dúvidas frequentes
+🧾 Cobranças: lembrete antes e depois do vencimento
+📊 Relatórios: vendas e caixa do dia, no horário marcado
+🚨 Alertas: site fora do ar, pagamento recusado, estoque acabando
+
+E o que deixar para uma pessoa: reclamação, desconto e negociação, estorno, resposta a incidente e qualquer decisão fora da regra.
+
+Antes de sair: teste cada fluxo, avise o horário de volta na resposta automática, defina quem recebe os alertas e guarde o registro de tudo o que rodou.
+
+A defAInder cria automações com n8n, agentes de IA e chatbot no WhatsApp que trabalham com regra e chamam uma pessoa quando precisa.
+👉 Fale com a gente: link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve para o próximo feriado e mande para o sócio. Boas festas!
+
+#automacao #n8n #automacaodeprocessos #empresas #defainder

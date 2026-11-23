@@ -1,0 +1,17 @@
+Logs: a caixa-preta da sua empresa. Sem eles, depois de um ataque, ninguém sabe o que aconteceu. 📜🔍
+
+Log é o registro automático de quem acessou o quê, e quando. Ele existe no servidor, no firewall, no e-mail, nos sistemas e na nuvem, mas precisa estar ativado.
+
+3 cuidados:
+1️⃣ Guarde: por um prazo definido, numa cópia separada. Se ficar só no servidor atacado, o invasor apaga o rastro.
+2️⃣ Proteja: poucas pessoas com acesso e nenhuma alteração no que já foi registrado.
+3️⃣ Monitore: log que ninguém olha só serve depois do estrago.
+
+No Easy-SOC da defAInder, os registros são acompanhados 24/7 e a empresa é avisada quando algo foge do normal.
+
+👉 Diagnóstico gratuito no link da bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e mande para quem cuida da TI da sua empresa.
+
+#cibersegurança #segurancadainformacao #segurancadigital #empresas #defainder
