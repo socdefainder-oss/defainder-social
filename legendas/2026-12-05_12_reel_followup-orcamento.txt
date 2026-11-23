@@ -1,0 +1,19 @@
+Follow-up de orçamento automático: o cliente visualizou e sumiu? A automação lembra por você. 📄🔁
+
+Como funciona (simulação):
+1️⃣ Orçamento enviado entra na automação.
+2️⃣ Você define os lembretes. Exemplo: 2, 5 e 10 dias depois.
+3️⃣ Antes de cada lembrete, ela confere se o cliente já respondeu. Se respondeu, para na hora.
+4️⃣ Mensagem curta e educada, com o resumo do orçamento e um botão para tirar dúvidas.
+5️⃣ Cliente respondeu? A conversa vai direto para o vendedor.
+
+Nada de mensagem repetida para quem já fechou, e nenhum orçamento esquecido na correria de fim de ano.
+
+A defAInder cria automações com n8n e a API oficial do WhatsApp, integradas ao que a sua empresa já usa.
+
+👉 Quer esse follow-up na sua empresa? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve e compartilhe com quem faz orçamento todo dia.
+
+#automacao #whatsappbusiness #n8n #empresas #defainder

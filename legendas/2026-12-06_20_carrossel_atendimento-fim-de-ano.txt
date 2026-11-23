@@ -1,0 +1,18 @@
+Atendimento de fim de ano sem fila: chatbot + humano no WhatsApp. 🎄💬
+
+Como dividir o trabalho:
+🤖 O chatbot resolve o repetitivo, a qualquer hora: horários de festas, status do pedido, agendamentos, trocas e segunda via
+👤 A equipe entra no que importa: reclamação, negociação e tudo o que foge do roteiro
+🔁 A passagem leva o histórico: o cliente não repete tudo
+🌙 Fora do horário, o bot avisa quando a equipe volta
+
+Tudo pela API oficial do WhatsApp Business, com mensagens ativas só para quem autorizou receber.
+
+A defAInder monta chatbots e agentes de IA para WhatsApp: roteiro, integração com seus sistemas e passagem para humano, com segurança desde o primeiro dia.
+
+👉 Quer um assim para 2027? Link na bio
+📲 WhatsApp (11) 98137-7200
+
+💾 Salve e compartilhe com quem atende clientes na sua empresa.
+
+#chatbot #inteligenciaartificial #whatsappbusiness #empresas #defainder

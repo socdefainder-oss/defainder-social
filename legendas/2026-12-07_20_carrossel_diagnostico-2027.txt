@@ -1,0 +1,20 @@
+Diagnóstico de segurança para começar 2027 sabendo onde a sua empresa está exposta. 🛡️📋
+
+O que analisamos:
+📧 E-mails: proteção do domínio contra e-mail falso e golpes
+🔑 Senhas e MFA: senhas repetidas e onde falta a verificação em duas etapas
+💾 Backup: se existe, se fica fora do alcance de um ataque e se volta
+🌐 Site: atualizações, HTTPS e configurações básicas
+📶 Rede: Wi-Fi, roteador e equipamentos conectados
+👁️ Exposição: o que da empresa aparece aberto na internet sem precisar
+
+Como funciona: conversa inicial, análise autorizada e combinada com você, relatório com prioridades explicado sem "tecniquês". Depois, você decide se corrige com a sua equipe ou com a nossa.
+
+A defAInder une cibersegurança, automação e desenvolvimento para proteger a sua empresa.
+
+👉 Peça o seu diagnóstico gratuito: link na bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve e compartilhe com o sócio ou o responsável pela TI.
+
+#cibersegurança #segurancadigital #segurancadainformacao #empresas #defainder

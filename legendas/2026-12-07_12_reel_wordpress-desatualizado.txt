@@ -1,0 +1,18 @@
+Site em WordPress desatualizado é porta de entrada. Plugin parado, tema sem atualização e nenhum backup: o risco está aí. 🌐⚠️
+
+Checklist para o seu site:
+1️⃣ Atualize o WordPress, os plugins e o tema. Muitas atualizações corrigem falhas já conhecidas.
+2️⃣ Remova os plugins parados. Só desativar não basta: os arquivos continuam no servidor.
+3️⃣ Backup automático, guardado fora do servidor do site. E teste se ele volta.
+4️⃣ Manutenção contínua: alguém acompanhando atualizações, segurança e o site no ar.
+
+A cena do vídeo é uma simulação, com site fictício.
+
+A defAInder faz manutenção de sites e análise de vulnerabilidades, com segurança desde a primeira linha de código.
+
+👉 Peça uma análise gratuita do seu site: link na bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve e mande para quem cuida do site da sua empresa.
+
+#sites #desenvolvimentoweb #presencadigital #empresas #defainder

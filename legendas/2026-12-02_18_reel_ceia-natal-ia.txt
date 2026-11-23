@@ -1,0 +1,20 @@
+Ceia de Natal com IA: cardápio, lista de compras e tarefas da família em minutos. 🎄🤖
+
+Copie os prompts (troque pelos seus dados):
+
+1️⃣ "Ceia de Natal para 12 pessoas, 2 vegetarianas e 1 sem glúten, até R$ 500. Monte o cardápio com entrada, prato principal, acompanhamentos e sobremesa, com as quantidades."
+2️⃣ "Transforme o cardápio numa lista de compras separada por seção do mercado."
+3️⃣ "Divida as tarefas entre 4 pessoas, com horário para cada uma."
+
+⚠️ Cuidados:
+🤖 A IA pode errar quantidades e não sabe o preço de hoje: confira antes de comprar
+🥜 Alergia e restrição se confirmam com a pessoa, e no rótulo
+🔒 Não cole dados pessoais nem do cartão
+
+(Cena simulada; valores e quantidades de exemplo.)
+
+Na defAInder, usamos IA todos os dias e mostramos como ela pode facilitar a sua rotina.
+
+💾 Salve para usar na semana do Natal e mande para quem vai organizar a ceia.
+
+#inteligenciaartificial #prompts #dicasdeia #dicas #defainder

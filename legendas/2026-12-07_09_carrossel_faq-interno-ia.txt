@@ -1,0 +1,19 @@
+FAQ interno com IA: a equipe pergunta, a base de conhecimento da empresa responde. 📚🤖
+
+Como funciona:
+1️⃣ Os documentos da empresa (manuais, políticas, procedimentos, modelos) viram uma base de conhecimento.
+2️⃣ A equipe pergunta em linguagem normal, no chat interno.
+3️⃣ A IA responde e mostra a fonte: de qual documento tirou a resposta.
+4️⃣ Não encontrou? Ela diz que não sabe e indica quem procurar.
+
+🔐 Acesso controlado: cada área vê só o que precisa, com login individual.
+🚫 Dado sensível não fica aberto: senhas, dados pessoais, salários e documentos de RH ficam de fora ou com regra de acesso.
+
+A defAInder cria agentes de IA ligados à base da sua empresa, com segurança e LGPD desde o início.
+
+👉 Descubra o que a IA pode assumir na sua empresa: link na bio
+📲 WhatsApp (11) 98137-7200
+
+📌 Salve e compartilhe com quem responde a mesma pergunta todo dia.
+
+#inteligenciaartificial #agentesdeia #automacaodeprocessos #empresas #defainder
