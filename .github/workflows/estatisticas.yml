@@ -1,0 +1,29 @@
+name: Estatisticas do Instagram
+
+# Coleta curtidas, comentarios e insights dos posts publicados. Resultado como artefato (nao commita: repo publico).
+on:
+  schedule:
+    - cron: "30 11 * * 1"   # segundas 08h30 (Brasilia)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  estatisticas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Coletar
+        run: python estatisticas.py estatisticas.json
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: estatisticas
+          path: estatisticas.json
+          retention-days: 30
