@@ -37,6 +37,7 @@ def main():
             continue
         mid = info["media_id"]
         m = get(f"/{mid}", fields="like_count,comments_count,media_type,media_product_type,permalink,timestamp")
+        m.pop("id", None)  # o "id" da API e o media_id; nao pode sobrescrever o id da agenda
         reg = {"id": id_, "media_id": mid, "publicado_em": info.get("publicado_em"), **m}
         metricas = "views,reach,saved,shares,total_interactions"
         if tipo == "reel":
